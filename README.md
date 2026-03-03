@@ -1,5 +1,38 @@
+<h1 align="center">BlackNode</h1>
 
-Every folder has its own purpose.  If you do not use a particular tool, simply ignore its folder.  The configurations are designed to be modular, so you can pick and choose what fits your workflow.
+<div align="center">
+  <p>
+    <a href="https://github.com/zhaleff/BlackNode/stargazers"><img src="https://img.shields.io/github/stars/zhaleff/BlackNode?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/forks"><img src="https://img.shields.io/github/forks/zhaleff/BlackNode?style=for-the-badge&logo=git&logoColor=f9e2af&label=Forks&labelColor=302D41&color=f9e2af" alt="forks"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/issues"><img src="https://img.shields.io/github/issues/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=eba0ac&label=Issues&labelColor=302D41&color=eba0ac" alt="issues"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/commits/main"><img src="https://img.shields.io/github/last-commit/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=white&label=Last%20Commit&labelColor=302D41&color=A6E3A1" alt="last commit"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/blob/main/LICENSE"><img src="https://img.shields.io/github/license/zhaleff/BlackNode?style=for-the-badge&logo=open-source-initiative&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="license"></a>&nbsp;&nbsp;
+    <a href="https://discord.gg/hollowsec"><img src="https://img.shields.io/badge/chat-discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=302D41" alt="discord"></a>
+  </p>
+</div>
+
+<div align="center">
+  &ensp;<a href="./INSTALLATION.md"><kbd> <br> Installation <br> </kbd></a>&ensp;
+  &ensp;<a href="./KEYBINDS.md"><kbd> <br> Keybindings <br> </kbd></a>&ensp;
+  &ensp;<a href="./MODULES.md"><kbd> <br> Modules <br> </kbd></a>&ensp;
+  &ensp;<a href="./WAYBAR.md"><kbd> <br> Waybar <br> </kbd></a>&ensp;
+  &ensp;<a href="./REFERENCE.md"><kbd> <br> Reference <br> </kbd></a>&ensp;
+  &ensp;<a href="./HollowSec.md"><kbd> <br> HollowSec <br> </kbd></a>&ensp;
+  <br><br>
+</div>
+
+<div align="center">
+  <h3>Your home in the terminal.  Simple, clean, yours.</h3>
+  <p><i>Dotfiles that embrace, not complicate.</i></p>
+</div>
+
+---
+
+## Hello.
+
+This is my configuration favourite for Linux.  BlackNode is a collection of dotfiles that grew from years of tweaking, breaking, and slowly understanding what makes a system feel like home.  It is not a monolithic “rice” that you copy and forget.  It is a living set of files, each one written to be read, understood, and eventually changed by you.
+
+My first dotfiles were horrible.  I mean it.  They were messy, inconsistent, and half of them did not even work.  But I kept at it, and over time they became something I was proud to share.  BlackNode is that pride, packaged up and offered to you with a single wish: that you take it, make it your own, and in doing so discover that you are capable of so much more than you think.
 
 ---
 
