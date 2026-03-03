@@ -2,45 +2,126 @@
 
 <div align="center">
   <p>
-    <a href="#"><img src="https://img.shields.io/badge/focus-simplicity-89B4FA?style=for-the-badge&logo=simple&logoColor=white&labelColor=302D41" alt="Focus"></a>&nbsp;&nbsp;
-    <a href="#"><img src="https://img.shields.io/badge/philosophy-your%20space-A6E3A1?style=for-the-badge&logo=heart&logoColor=white&labelColor=302D41" alt="Philosophy"></a>&nbsp;&nbsp;
-    <a href="#"><img src="https://img.shields.io/badge/lines~2k-soft-F9E2AF?style=for-the-badge&logo=code&logoColor=white&labelColor=302D41" alt="Size"></a>
+    <a href="https://github.com/zhaleff/BlackNode/stargazers"><img src="https://img.shields.io/github/stars/zhaleff/BlackNode?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/forks"><img src="https://img.shields.io/github/forks/zhaleff/BlackNode?style=for-the-badge&logo=git&logoColor=f9e2af&label=Forks&labelColor=302D41&color=f9e2af" alt="forks"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/issues"><img src="https://img.shields.io/github/issues/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=eba0ac&label=Issues&labelColor=302D41&color=eba0ac" alt="issues"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/commits/main"><img src="https://img.shields.io/github/last-commit/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=white&label=Last%20Commit&labelColor=302D41&color=A6E3A1" alt="last commit"></a>&nbsp;&nbsp;
+    <a href="https://github.com/zhaleff/BlackNode/blob/main/LICENSE"><img src="https://img.shields.io/github/license/zhaleff/BlackNode?style=for-the-badge&logo=open-source-initiative&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="license"></a>&nbsp;&nbsp;
+    <a href="https://discord.gg/hollowsec"><img src="https://img.shields.io/badge/chat-discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=302D41" alt="discord"></a>
   </p>
 </div>
 
-Hello.  BlackNode is not a massive collection of thousands of scripts you will never read.  It is not a labyrinth of complex configurations that only its author understands.  It is a place to feel at home.
-
-The idea is simple: give you something clean, something readable, something you can actually *understand*.  No magic.  No mystery.  Just well‑structured dotfiles that you can explore, tweak, and eventually make your own.
-
----
-
-## Why BlackNode?
-
-Because the best setup is not the one with the most features.  It is the one you are comfortable with.  The one you can fix when it breaks.  The one that feels like *yours*, not someone else's masterpiece.
-
-This repository exists to show you that dotfiles can be simple.  That you do not need to be an expert to craft an environment you love.  That starting small is not only okay — it is the right way.
+<div align="center">
+  <h3>Your home in the terminal.  Simple, clean, yours.</h3>
+  <p><i>Dotfiles that embrace, not complicate.</i></p>
+</div>
 
 ---
 
-## What You Will Find
+## About BlackNode
 
-- **Clear structure** – Files organised so you can find what you need.
-- **Minimal magic** – No obscure hacks, just readable configs.
-- **Room to grow** – A foundation, not a finished product.  Add what you want, remove what you do not.
+Hello.  BlackNode is not just another repository of configurations.  It is an invitation to feel comfortable in your own system.  A collection of dotfiles for Linux, carefully written so that you can understand them, modify them, and make them your own.  No magical thousand‑line scripts.  No labyrinthine structures.  Just clear, well‑organised code with a simple philosophy: simplicity is the ultimate sophistication.
 
-BlackNode currently sits at around 2000 lines of configuration across all its files.  That might sound like a lot, but each line is there for a reason, and nothing is hidden.
+Inside you will find configurations for:
+- **ZSH** – A powerful shell with useful plugins and time‑saving aliases.
+- **Hyprland** – A dynamic and elegant Wayland compositor.
+- **Waybar** – A modern status bar with multiple styles.
+- **Kitty**, **Rofi**, **dunst**, and other everyday tools.
+
+But more importantly, you will find a starting point.  A place from which you can grow, experiment, and build your own digital corner.
 
 ---
 
-## Your Turn
+## Philosophy
 
-Take what helps.  Leave what does not.  Change everything else.  This is your space now.
+My first dotfiles were a disaster.  Literally.  Broken, inconsistent, full of half‑finished experiments.  But every mistake taught me something.  Every break forced me to understand how things truly worked.  Over time, those messy files became something I was proud to share.
 
-If you ever feel lost, remember: my first configs were a mess.  I started exactly where you are.  The only difference is I kept going.
+BlackNode is the result of that journey.  But it is not a destination; it is another station.  I want you to use it as a springboard, not a cage.
 
-So will you.
+**You are capable of creating something beautiful.**  You only need to start, to make mistakes, to learn, and to keep going.  If I could do it, so can you.  We have always been capable of everything; we only need to look in the mirror and believe it.
 
-**— HollowSec**
+---
+
+## Packages & Tools
+
+BlackNode relies on a set of common tools found in the Linux ecosystem.  Not all are mandatory; you may choose the ones that fit your workflow.
+
+| Category | Tools |
+|----------|-------|
+| **Shell** | ZSH, Powerlevel10k, zsh-autosuggestions, zsh-syntax-highlighting, fzf-tab, zsh-you-should-use, zsh-history-substring-search, zsh-completions |
+| **Compositor** | Hyprland |
+| **Bar** | Waybar (multiple styles) |
+| **Terminal** | Kitty (or your preference) |
+| **Launcher** | Rofi (or wofi) |
+| **Notifications** | dunst |
+| **Clipboard Manager** | clipse |
+| **Screenshots** | grim + slurp |
+| **Wallpaper** | swaybg or hyprpaper |
+| **Authentication** | polkit-kde-agent |
+| **Audio** | wireplumber, pamixer, playerctl |
+| **Brightness** | brightnessctl |
+| **Login Manager** | sddm (optional) |
+
+> Note: You may install only what you need.  The configuration is modular to facilitate customisation.
+
+---
+
+## Related Documentation
+
+The project is documented across several files, each focused on a specific aspect.  Explore them in any order you like.
+
+| Document | Description |
+|----------|-------------|
+| [**BlackNode.md**](./BlackNode.md) | The heart of the project – philosophy, structure, and how to approach these dotfiles. |
+| [**INSTALLATION.md**](./INSTALLATION.md) | Step‑by‑step guide to get BlackNode running on your system. |
+| [**KEYBINDS.md**](./KEYBINDS.md) | Complete list of Hyprland keybindings. |
+| [**MODULES.md**](./MODULES.md) | Detailed breakdown of Waybar modules and their purpose. |
+| [**WAYBAR.md**](./WAYBAR.md) | Available Waybar styles (Classic, Minimal, and WIP Hacking). |
+| [**PACKAGES.md**](./PACKAGES.md) | Comprehensive list of required packages (use as reference). |
+| [**REFERENCE.md**](./REFERENCE.md) | Inspiration, previous projects, and how to build your own dotfiles. |
+| [**COLLABORATORS.md**](./COLLABORATORS.md) | Thanks to everyone who contributed. |
+| [**HollowSec.md**](./HollowSec.md) | Information about the HollowSec community. |
+| [**LICENSE**](./LICENSE) | MIT License – you are free to use, modify, and share. |
+
+Each document is meant to be read from beginning to end, but also to serve as a quick reference.  Feel free to open them and explore.
+
+---
+
+## Contributing
+
+BlackNode is a living project, and you can help make it better.  How to contribute:
+
+- **Report issues:** If you find a bug or something that does not work as expected, open an [issue](https://github.com/zhaleff/BlackNode/issues).
+- **Suggest improvements:** Do you have an idea for a new feature or a different style?  We would love to hear it.
+- **Submit changes:** If you have modified something and think it could be useful to others, make a [pull request](https://github.com/zhaleff/BlackNode/pulls).
+- **Join the community:** On [Discord](https://discord.gg/hollowsec) we share ideas, help each other, and talk about technology and cybersecurity.
+
+All contributors are expected to follow the implicit [code of conduct](./COLLABORATORS.md): be kind, be respectful, help others.
+
+---
+
+## License
+
+BlackNode is under the [MIT License](./LICENSE).  That means you can use it, modify it, distribute it, and even sell it (though why would you?) without restrictions, as long as you include the original copyright notice.  In short: do what you want, but give credit if you feel like it.
+
+---
+
+## A Message for You
+
+Before you go, I want you to know something.  I have seen many people feel intimidated by dotfiles.  They think they are for wizards or programmers with years of experience.  It is not true.
+
+I started by copying configurations I did not understand.  I broke them, fixed them through trial and error, and little by little I began to comprehend.  Today, every file in BlackNode has a reason for being, and I hope you too can reach that point.
+
+It is not about having the prettiest or most functional setup.  It is about feeling at home.  It is about opening your terminal and thinking: "this is mine, I built it, I understand it."
+
+If this repository helps you take that first step, it will have fulfilled its mission.  And if someday, months or years from now, you create your own collection of dotfiles and share it, I will have succeeded.
+
+**You are capable.  You always have been.  You only needed to look in the mirror and believe it.**
+
+Now go, play, break, fix, learn.  And above all, enjoy.
+
+With affection,  
+**HollowSec**
 
 <h1 align="center">ZepharDev </h1>
 
