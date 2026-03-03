@@ -1,81 +1,56 @@
-<h1 align="center">HollowSec Community</h1>
+<h1 align="center">HollowSec Dotfiles: Reference & Philosophy</h1>
 
 <div align="center">
   <p>
-    <a href="https://discord.gg/hollowsec"><img src="https://img.shields.io/badge/Discord-HollowSec-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=302D41" alt="Discord"></a>&nbsp;&nbsp;
-    <a href="https://hollowsec.surge.sh"><img src="https://img.shields.io/badge/Website-hollowsec.surge.sh-00ADD8?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=302D41" alt="Website"></a>&nbsp;&nbsp;
-    <a href="#"><img src="https://img.shields.io/badge/members-279-blue?style=for-the-badge&logo=group&logoColor=white&labelColor=302D41&color=89B4FA" alt="Members"></a>&nbsp;&nbsp;
-    <a href="#"><img src="https://img.shields.io/badge/online-59-green?style=for-the-badge&logo=activity&logoColor=white&labelColor=302D41&color=A6E3A1" alt="Online"></a>&nbsp;&nbsp;
-    <a href="#"><img src="https://img.shields.io/badge/focus-Ethical%20Hacking-ff69b4?style=for-the-badge&logo=kalilinux&logoColor=white&labelColor=302D41&color=F9E2AF" alt="Focus"></a>
+    <a href="#"><img src="https://img.shields.io/badge/based%20on-HyprCraft-89B4FA?style=for-the-badge&logo=hyprland&logoColor=white&labelColor=302D41" alt="Based on"></a>&nbsp;&nbsp;
+    <a href="#"><img src="https://img.shields.io/badge/philosophy-you%20can%20do%20it-A6E3A1?style=for-the-badge&logo=heart&logoColor=white&labelColor=302D41" alt="Philosophy"></a>&nbsp;&nbsp;
+    <a href="#"><img src="https://img.shields.io/badge/journey-beginner%20→%20now-F9E2AF?style=for-the-badge&logo=arrow-right&logoColor=white&labelColor=302D41" alt="Journey"></a>
   </p>
 </div>
 
-Hello.  This document introduces **HollowSec**, a community dedicated to cybersecurity education and mutual support.  Whether you are just starting your journey in ethical hacking or you are a seasoned professional looking to share knowledge, HollowSec provides a space to learn, collaborate, and grow.
+Hello.  This project did not appear from nowhere.  It stands on the shoulders of an earlier configuration — **HyprCraft** — which you can still find at [github.com/zephardev/hyprcraft](https://github.com/zephardev/hyprcraft).  That version is simpler, more minimal, and perfect if you want a clean foundation to build your own dotfiles from scratch.
 
 ---
 
-## What is HollowSec?
+## The Story
 
-HollowSec is a growing community focused on **fostering education and support in the cybersecurity sector**.  The mission is simple: provide comprehensive resources to help members master both defensive and offensive security techniques, all within a supportive environment.
-
-From the website:
-
-> *“Fomentando la educación y el apoyo en el sector de la Ciberseguridad. Utiliza nuestros recursos integrales para dominar el arte de la defensa y la ofensiva, y únete a una comunidad dedicada a crecer juntos.”*
-
-In English: *“Promoting education and support in the cybersecurity sector. Use our comprehensive resources to master the art of defence and offence, and join a community dedicated to growing together.”*
+My first dotfiles were *horrible*.  Messy, inconsistent, full of half‑working experiments.  But I kept tweaking, kept learning, kept breaking and fixing.  Slowly, they became something I was proud to share.  Today, this collection represents not just a functional setup, but a philosophy: **you are capable of creating something beautiful, one small step at a time.**
 
 ---
 
-## Core Pillars
+## The Philosophy
 
-| Pillar | Description |
-|--------|-------------|
-| **Education** | Resources, guides, and learning paths for all skill levels. |
-| **Support** | A place to ask questions, get help, and collaborate on challenges. |
-| **Community** | Over 270 members (and growing) who share a passion for ethical hacking. |
-| **Growth** | Continuous learning through shared knowledge and real‑world discussion. |
+At the end of the day, this project exists so that **you** can create *your own* dotfiles.  Not copy mine exactly, but take what works, leave what doesn't, and build something that feels like home in your terminal.
 
----
-
-## Why Join HollowSec?
-
-- **Learn from peers** – Get help with labs, CTFs, and certifications.
-- **Share your knowledge** – Help others while reinforcing your own skills.
-- **Stay updated** – Discuss the latest vulnerabilities, tools, and techniques.
-- **Network** – Connect with like‑minded individuals in the field.
-
-The community currently has **59 members online** (as of last check) and **279 total members**, indicating an active and engaged user base.
+- Use my structure if it helps — you are free to borrow, adapt, remix.
+- Start simple.  My first config had barely ten lines.  It grew organically.
+- Break things.  Fix them.  Learn.  That is the only way to make it truly yours.
 
 ---
 
-## How to Join
+## You Can Do This
 
-Joining HollowSec is simple:
+I believe something strongly: if you can learn to craft a dotfile — to bend your tools to your will — you can learn anything.  Cybersecurity, programming, music, art.  The same patience, the same curiosity, the same refusal to settle for “good enough” applies everywhere.
 
-1. **Visit the Discord invite:** [discord.gg/hollowsec](https://discord.gg/hollowsec)
-2. **Create an account** (or log in if you already have one).
-3. **Introduce yourself** in the appropriate channel and start participating.
+You are not just building a config.  You are building confidence.  You are proving to yourself that you can master complex systems, that you can make them serve you.
 
-The Discord server requires JavaScript to run, and you will need to set a nickname and birth date during account creation (standard Discord procedure).
+My first attempts were embarrassing.  Yours might be too.  And that is perfectly fine.  What matters is that you start, and that you keep going.
 
 ---
 
-## Official Links
+## Where to Begin
 
-| Resource | Link | Purpose |
-|----------|------|---------|
-| Discord Server | [discord.gg/hollowsec](https://discord.gg/hollowsec) | Main community hub |
-| Website | [hollowsec.surge.sh](https://hollowsec.surge.sh) | Information and resources |
+| Option | Link | Description |
+|--------|------|-------------|
+| Start with HyprCraft | [github.com/zephardev/hyprcraft](https://github.com/zephardev/hyprcraft) | Simpler base config, less overwhelming. |
+| Dive into HollowSec | [github.com/zhaleff/BlackNode](https://github.com/zhaleff/BlackNode) | Full‑featured setup, more to explore. |
+| Create your own | — | Take ideas from both and build what *you* need. |
 
----
+No matter which path you choose, remember: every expert was once a beginner who refused to stop trying.
 
-## A Note on Ethics
+Go make something yours.
 
-HollowSec is committed to **ethical hacking** and responsible disclosure.  The community exists to promote learning and defence, not malicious activity.  Members are expected to use their knowledge legally and ethically.
-
-If this aligns with your values and you are eager to grow in cybersecurity, HollowSec welcomes you.
-
-**— HollowSec Team**
+**— HollowSec**
 
 <h1 align="center">ZepharDev </h1>
 
