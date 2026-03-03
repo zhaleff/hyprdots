@@ -1,4 +1,3 @@
-a
 <h1 align="center" style="color:#cba6f7; margin-bottom:0.2em;">
   ZepharDev: 🍁 Crafting Minimal, Coherent Workflows
 </h1>
