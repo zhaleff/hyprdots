@@ -66,18 +66,16 @@ My first dotfiles were horrible. They were messy, inconsistent, and half of them
 <br>
 
 <div align="center">
-<img width="480" height="768" alt="wlogout" src="https://github.com/user-attachments/assets/3983edf0-898a-4a74-b40b-3e04a684be4f" />
-<img width="1366" height="768" alt="wallselect" src="https://github.com/user-attachments/assets/0591b204-9e0e-44c8-82f1-55a35f2a1b95" />
-<img width="1366" height="768" alt="rofi_8" src="https://github.com/user-attachments/assets/a8d958fb-6d02-45cf-ab90-249cfd7ba9a2" />
-<img width="1366" height="768" alt="rofi_5" src="https://github.com/user-attachments/assets/b796746e-dbed-4239-bcee-a1666632d300" />
-<img width="1366" height="768" alt="rofi_3" src="https://github.com/user-attachments/assets/11ffd6bd-bc62-44bf-88ec-5dc48b5fb07e" />
-<img width="1366" height="768" alt="rofi_2" src="https://github.com/user-attachments/assets/c5752a1d-479e-4943-b47d-32cdb901bdf2" />
-<img width="1366" height="768" alt="rofi" src="https://github.com/user-attachments/assets/9c74ae48-33ae-478d-9443-ed81a3705fe5" />
-<img width="1366" height="768" alt="hyprlock" src="https://github.com/user-attachments/assets/33fa3c75-cff2-4c8c-9901-8d3d97935573" />
-<img width="1366" height="768" alt="fastfetch" src="https://github.com/user-attachments/assets/fd5ceba2-e933-4aad-b44e-3f1871813a54" />
-<img width="1366" height="768" alt="desktop" src="https://github.com/user-attachments/assets/07407b3a-9b7f-4996-9b56-c838c7d246f8" />
-
-
+  <img width="420" alt="desktop" src="https://github.com/user-attachments/assets/07407b3a-9b7f-4996-9b56-c838c7d246f8" />
+  <img width="420" alt="fastfetch" src="https://github.com/user-attachments/assets/fd5ceba2-e933-4aad-b44e-3f1871813a54" />
+  <img width="420" alt="hyprlock" src="https://github.com/user-attachments/assets/33fa3c75-cff2-4c8c-9901-8d3d97935573" />
+  <img width="420" alt="rofi" src="https://github.com/user-attachments/assets/9c74ae48-33ae-478d-9443-ed81a3705fe5" />
+  <img width="420" alt="rofi_2" src="https://github.com/user-attachments/assets/c5752a1d-479e-4943-b47d-32cdb901bdf2" />
+  <img width="420" alt="rofi_3" src="https://github.com/user-attachments/assets/11ffd6bd-bc62-44bf-88ec-5dc48b5fb07e" />
+  <img width="420" alt="rofi_5" src="https://github.com/user-attachments/assets/b796746e-dbed-4239-bcee-a1666632d300" />
+  <img width="420" alt="rofi_8" src="https://github.com/user-attachments/assets/a8d958fb-6d02-45cf-ab90-249cfd7ba9a2" />
+  <img width="420" alt="wallselect" src="https://github.com/user-attachments/assets/0591b204-9e0e-44c8-82f1-55a35f2a1b95" />
+  <img width="480" alt="wlogout" src="https://github.com/user-attachments/assets/3983edf0-898a-4a74-b40b-3e04a684be4f" />
 </div>
 
 <br>
