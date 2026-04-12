@@ -1,20 +1,5 @@
 ###### _<div align="right"><sub>// by zhaleff · HollowSec</sub></div>_
-
-<div align="center">
-
-```
-                                                                                    )                   
- (  (           (                             )         (   (                )  ( /(        (          
- )\))(   '   (  )\             )      (    ( /(       ( )\  )\    )       ( /(  )\())       )\ )   (   
-((_)()\ )   ))\((_) (   (     (      ))\   )\()) (    )((_)((_)( /(   (   )\())((_)\   (   (()/(  ))\  
-_(())\_)() /((_)_   )\  )\    )\  ' /((_) (_))/  )\  ((_)_  _  )(_))  )\ ((_)\  _((_)  )\   ((_))/((_)
-\ \((_)/ /(_)) | | ((_)((_) _((_)) (_))   | |_  ((_)  | _ )| |((_)_  ((_)| |(_)| \| | ((_)  _| |(_)) 
- \ \/\/ / / -_)| |/ _|/ _ \| '  \()/ -_)  |  _|/ _ \  | _ \| |/ _` |/ _| | / / | .` |/ _ \/ _` |/ -_)
-  \_/\_/  \___||_|\__|\___/|_|_|_| \___|   \__|\___/  |___/|_|\__,_|\__| |_\_\ |_|\_|\___/\__,_|\___|  
-```
-
-</div>
-
+<h1 align="center">BlackNode // Your Setup</h1>
 <div align="center">
 
 <a href="https://github.com/zhaleff/BlackNode/stargazers"><img src="https://img.shields.io/github/stars/zhaleff/BlackNode?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"></a>&nbsp;&nbsp;
