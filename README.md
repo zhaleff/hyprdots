@@ -1,100 +1,312 @@
-<h1 align="center">BlackNode</h1>
+###### _<div align="right"><sub>// by zhaleff · HollowSec</sub></div>_
 
 <div align="center">
-  <p>
-    <a href="https://github.com/zhaleff/BlackNode/stargazers"><img src="https://img.shields.io/github/stars/zhaleff/BlackNode?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"></a>&nbsp;&nbsp;
-    <a href="https://github.com/zhaleff/BlackNode/forks"><img src="https://img.shields.io/github/forks/zhaleff/BlackNode?style=for-the-badge&logo=git&logoColor=f9e2af&label=Forks&labelColor=302D41&color=f9e2af" alt="forks"></a>&nbsp;&nbsp;
-    <a href="https://github.com/zhaleff/BlackNode/issues"><img src="https://img.shields.io/github/issues/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=eba0ac&label=Issues&labelColor=302D41&color=eba0ac" alt="issues"></a>&nbsp;&nbsp;
-    <a href="https://github.com/zhaleff/BlackNode/commits/main"><img src="https://img.shields.io/github/last-commit/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=white&label=Last%20Commit&labelColor=302D41&color=A6E3A1" alt="last commit"></a>&nbsp;&nbsp;
-    <a href="https://github.com/zhaleff/BlackNode/blob/main/LICENSE"><img src="https://img.shields.io/github/license/zhaleff/BlackNode?style=for-the-badge&logo=open-source-initiative&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="license"></a>&nbsp;&nbsp;
-    <a href="https://discord.gg/hollowsec"><img src="https://img.shields.io/badge/chat-discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=302D41" alt="discord"></a>
-  </p>
+
+```
+                                                                                    )                   
+ (  (           (                             )         (   (                )  ( /(        (          
+ )\))(   '   (  )\             )      (    ( /(       ( )\  )\    )       ( /(  )\())       )\ )   (   
+((_)()\ )   ))\((_) (   (     (      ))\   )\()) (    )((_)((_)( /(   (   )\())((_)\   (   (()/(  ))\  
+_(())\_)() /((_)_   )\  )\    )\  ' /((_) (_))/  )\  ((_)_  _  )(_))  )\ ((_)\  _((_)  )\   ((_))/((_)
+\ \((_)/ /(_)) | | ((_)((_) _((_)) (_))   | |_  ((_)  | _ )| |((_)_  ((_)| |(_)| \| | ((_)  _| |(_)) 
+ \ \/\/ / / -_)| |/ _|/ _ \| '  \()/ -_)  |  _|/ _ \  | _ \| |/ _` |/ _| | / / | .` |/ _ \/ _` |/ -_)
+  \_/\_/  \___||_|\__|\___/|_|_|_| \___|   \__|\___/  |___/|_|\__,_|\__| |_\_\ |_|\_|\___/\__,_|\___|  
+```
+
 </div>
 
 <div align="center">
-  &ensp;<a href="./INSTALLATION.md"><kbd> <br> Installation <br> </kbd></a>&ensp;
-  &ensp;<a href="./KEYBINDS.md"><kbd> <br> Keybindings <br> </kbd></a>&ensp;
-  &ensp;<a href="./MODULES.md"><kbd> <br> Modules <br> </kbd></a>&ensp;
-  &ensp;<a href="./WAYBAR.md"><kbd> <br> Waybar <br> </kbd></a>&ensp;
-  &ensp;<a href="./REFERENCE.md"><kbd> <br> Reference <br> </kbd></a>&ensp;
-  &ensp;<a href="./HollowSec.md"><kbd> <br> HollowSec <br> </kbd></a>&ensp;
-  <br><br>
+
+<a href="https://github.com/zhaleff/BlackNode/stargazers"><img src="https://img.shields.io/github/stars/zhaleff/BlackNode?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"></a>&nbsp;&nbsp;
+<a href="https://github.com/zhaleff/BlackNode/forks"><img src="https://img.shields.io/github/forks/zhaleff/BlackNode?style=for-the-badge&logo=git&logoColor=f9e2af&label=Forks&labelColor=302D41&color=f9e2af" alt="forks"></a>&nbsp;&nbsp;
+<a href="https://github.com/zhaleff/BlackNode/issues"><img src="https://img.shields.io/github/issues/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=eba0ac&label=Issues&labelColor=302D41&color=eba0ac" alt="issues"></a>&nbsp;&nbsp;
+<a href="https://github.com/zhaleff/BlackNode/commits/main"><img src="https://img.shields.io/github/last-commit/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=white&label=Last%20Commit&labelColor=302D41&color=A6E3A1" alt="last commit"></a>&nbsp;&nbsp;
+<a href="https://github.com/zhaleff/BlackNode/blob/main/LICENSE"><img src="https://img.shields.io/github/license/zhaleff/BlackNode?style=for-the-badge&logo=open-source-initiative&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="license"></a>&nbsp;&nbsp;
+<a href="https://discord.gg/hollowsec"><img src="https://img.shields.io/badge/chat-discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=302D41" alt="discord"></a>
+
 </div>
 
+#
+
 <div align="center">
-  <h3>Your home in the terminal.  Simple, clean, yours.</h3>
+
+<a href="#installation"><kbd> <br> Installation <br> </kbd></a>&ensp;&ensp;
+<a href="#manual-install"><kbd> <br> Manual Install <br> </kbd></a>&ensp;&ensp;
+<a href="#showcase"><kbd> <br> Showcase <br> </kbd></a>&ensp;&ensp;
+<a href="./KEYBINDS.md"><kbd> <br> Keybindings <br> </kbd></a>&ensp;&ensp;
+<a href="./WAYBAR.md"><kbd> <br> Waybar <br> </kbd></a>&ensp;&ensp;
+<a href="./MODULES.md"><kbd> <br> Modules <br> </kbd></a>&ensp;&ensp;
+<a href="./REFERENCE.md"><kbd> <br> Reference <br> </kbd></a>&ensp;&ensp;
+<a href="https://discord.gg/hollowsec"><kbd> <br> Discord <br> </kbd></a>
+
+</div>
+
+#
+
+<div align="center">
+  <h3>Your home in the terminal. Simple, clean, yours.</h3>
   <p><i>Dotfiles that embrace, not complicate.</i></p>
 </div>
 
----
+#
 
-## Hello.
+<a id="hello"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=HELLO." width="435"/>
 
-This is my configuration favourite for Linux.  BlackNode is a collection of dotfiles that grew from years of tweaking, breaking, and slowly understanding what makes a system feel like home.  It is not a monolithic “rice” that you copy and forget.  It is a living set of files, each one written to be read, understood, and eventually changed by you.
+BlackNode is my personal Linux configuration. It grew from years of tweaking, breaking, and slowly understanding what makes a system feel like home. It is not a monolithic rice you copy and forget. It is a living set of files, each one written to be read, understood, and eventually changed by you.
 
-My first dotfiles were horrible.  I mean it.  They were messy, inconsistent, and half of them did not even work.  But I kept at it, and over time they became something I was proud to share.  BlackNode is that pride, packaged up and offered to you with a single wish: that you take it, make it your own, and in doing so discover that you are capable of so much more than you think.
+Every tool in this setup was chosen deliberately. Nothing is here just because it is popular. Each component has its own independent install script — you run only what you need, nothing runs without your input.
 
----
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
-## What is Inside?
+#
 
-At its heart, BlackNode brings together a set of powerful tools that work in harmony:
+<a id="stack"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=STACK" width="435"/>
 
-- **ZSH** with a curated set of plugins: autosuggestions, syntax highlighting, fzf‑tab, history substring search, and more.  Aliases that actually save time.
-- **Hyprland** – a dynamic tiling Wayland compositor that is fast, beautiful, and endlessly configurable.
-- **Waybar** – a modern status bar with multiple styles (Classic, Minimal, and a work‑in‑progress Hacking style).
-- **Kitty** – a GPU‑accelerated terminal emulator, configured for clarity and performance.
-- **Rofi** – an application launcher that doubles as a window switcher and dmenu replacement.
-- **dunst** – a lightweight notification daemon with a clean look.
-- **clipse** – a clipboard manager that stays out of your way.
-- **fastfetch** – system information at a glance.
-- **yazi** – a fast terminal file manager.
-- And many others: cava, nvim, sddm, wlogout, and more.
+| Component | Tool | Role |
+|---|---|---|
+| Window Manager | Hyprland | Dynamic tiling Wayland compositor |
+| Status Bar | Waybar | Fully configurable bar |
+| Terminal | Kitty + Alacritty | GPU-accelerated terminal emulators |
+| Shell | Zsh + Powerlevel10k | Fast shell with a powerful prompt |
+| Launcher | Rofi | App launcher and dmenu replacement |
+| Notifications | Dunst | Lightweight notification daemon |
+| Lockscreen | Hyprlock + Hypridle | GPU-accelerated lock with idle management |
+| File Manager | Yazi | Blazing-fast terminal file manager |
+| Editor | Neovim | Extensible modal text editor |
+| Theming | Wallust | Colour schemes generated from your wallpaper |
+| Wallpaper | awww | GPU-accelerated Wayland wallpaper daemon |
+| Clipboard | Clipse | Persistent clipboard history for Wayland |
+| Audio | Cava | Terminal audio visualiser |
+| Logout | Wlogout | Clean session management screen |
+| System Info | Fastfetch | Fast, customisable fetch tool |
+| AUR Helper | yay | AUR package manager |
 
-Each configuration is thoroughly commented, so you can understand what every line does.  No magic.  No mystery.
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
----
+#
 
-## Documentation
+<a id="installation"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=INSTALLATION" width="435"/>
 
-Beyond this README, each major aspect of BlackNode has its own detailed document.  Use the buttons at the top to jump to them, or explore the files directly:
+BlackNode is designed for a minimal [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) install. It may work on Arch-based distros, but this has not been tested on all of them.
 
-- **Installation** – step‑by‑step guide to get BlackNode running.
-- **Keybindings** – every Hyprland shortcut, explained.
-- **Modules** – a deep dive into Waybar modules and what they do.
-- **Waybar** – the different styles available and how to switch.
-- **Reference** – where this all came from, and how to build your own dotfiles.
-- **HollowSec** – information about the community behind this project.
+> [!IMPORTANT]
+> Installing BlackNode alongside another DE or WM should work, but it **will** overwrite your GTK, Qt, SDDM, shell and Zsh configuration. Proceed at your own risk.
 
----
+> [!NOTE]
+> `blacknode.sh` is the main entry point. It presents you with options and calls individual component scripts based on your choices. Nothing is installed without your input.
 
-## The HollowSec Community
+Clone the repository and run the main installer:
 
-BlackNode is maintained by [Zhaleff](https://github.com/zhaleff) and supported by the **HollowSec** community – a group of people passionate about cybersecurity, programming, and building cool things together.  We believe in learning by doing, sharing knowledge, and lifting each other up.
+```bash
+git clone https://github.com/zhaleff/BlackNode.git $HOME/BlackNode
+cd $HOME/BlackNode
+bash blacknode.sh
+```
 
-If you want to chat, ask questions, or just hang out, join us on Discord: [discord.gg/hollowsec](https://discord.gg/hollowsec).  We have an active community of learners and professionals who are always happy to help.
+> [!TIP]
+> If you only want specific components, skip `blacknode.sh` entirely and jump to [Manual Install](#manual-install).
 
----
+Please reboot after the installer completes for all changes to take effect.
 
-## A Word to You
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
 
-I have been where you are.  I have stared at other people’s dotfiles, overwhelmed by the complexity, convinced I could never create something like that.  But I started small.  I copied one line, then another.  I broke things and fixed them.  And slowly, it became mine.
+#
 
-You can do this.  You are capable of more than you know.  All it takes is the courage to start, the patience to learn from mistakes, and the belief that you belong here.
+<a id="manual-install"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=MANUAL+INSTALL" width="435"/>
 
-BlackNode is not the answer.  It is just a starting point.  The real answer is inside you.
+Every script is fully independent. Run any of them on their own, in any order. No script depends on another.
 
-Now go.  Explore.  Break things.  Fix them.  And make this your own.
+If you do not have an AUR helper yet, start here:
 
----
+```bash
+bash yay.sh
+```
 
-## License
+Then run whatever you need:
 
-BlackNode is released under the [MIT License](./LICENSE).  You are free to use, modify, and share it as you wish.  Attribution is appreciated but not required.
+```bash
+# Documentation — informational only, no side effects
+bash welcome.sh / introduction.sh / information.sh / changelog.sh / help.sh
 
----
+# Core
+bash flatpak.sh && bash bins.sh && bash update.sh
+
+# Window Manager
+bash hyprland.sh && bash hyprlock.sh && bash hyprshot.sh
+
+# Bar & Launcher
+bash waybar.sh && bash rofi.sh
+
+# Terminal & Shell
+bash kitty.sh && bash alacritty.sh && bash zsh.sh
+
+# Tools
+bash nvim.sh && bash yazi.sh && bash fastfetch.sh
+bash cava.sh && bash clipse.sh && bash dunst.sh && bash wlogout.sh
+
+# Theming
+bash wallust.sh && bash wallpaper.sh && bash gtk.sh && bash awww.sh
+```
+
+For a complete breakdown of what every script installs and deploys, see [INSTALLATION.md](./INSTALLATION.md).
+
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
+#
+
+<a id="updating"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=UPDATING" width="435"/>
+
+To update the entire system at once, run:
+
+```bash
+bash update.sh
+```
+
+This runs `pacman -Syu` → `yay -Syu` → `flatpak update` in sequence. Any tool that is not installed is skipped automatically.
+
+To pull the latest BlackNode configs:
+
+```bash
+cd $HOME/BlackNode
+git pull
+```
+
+> [!WARNING]
+> Pulling new configs and re-running component scripts will overwrite your local configuration files. Back up anything you have modified before doing so.
+
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
+#
+
+<a id="showcase"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=SHOWCASE" width="435"/>
+
+<div align="center"><table><tr><td>Desktop</td><td>Fastfetch</td><td>Hyprlock</td></tr><tr><td>
+<img width="280" alt="desktop" src="https://github.com/user-attachments/assets/07407b3a-9b7f-4996-9b56-c838c7d246f8"/></td><td>
+<img width="280" alt="fastfetch" src="https://github.com/user-attachments/assets/fd5ceba2-e933-4aad-b44e-3f1871813a54"/></td><td>
+<img width="280" alt="hyprlock" src="https://github.com/user-attachments/assets/33fa3c75-cff2-4c8c-9901-8d3d97935573"/></td></tr></table></div>
+
+<div align="center"><table><tr><td>Rofi</td><td>Rofi 2</td><td>Rofi 3</td></tr><tr><td>
+<img width="280" alt="rofi" src="https://github.com/user-attachments/assets/9c74ae48-33ae-478d-9443-ed81a3705fe5"/></td><td>
+<img width="280" alt="rofi_2" src="https://github.com/user-attachments/assets/c5752a1d-479e-4943-b47d-32cdb901bdf2"/></td><td>
+<img width="280" alt="rofi_3" src="https://github.com/user-attachments/assets/11ffd6bd-bc62-44bf-88ec-5dc48b5fb07e"/></td></tr>
+<tr><td>Rofi 5</td><td>Rofi 8</td><td></td></tr><tr><td>
+<img width="280" alt="rofi_5" src="https://github.com/user-attachments/assets/b796746e-dbed-4239-bcee-a1666632d300"/></td><td>
+<img width="280" alt="rofi_8" src="https://github.com/user-attachments/assets/a8d958fb-6d02-45cf-ab90-249cfd7ba9a2"/></td><td></td></tr></table></div>
+
+<div align="center"><table><tr><td>Wallpaper Select</td><td>Wlogout</td></tr><tr><td>
+<img width="280" alt="wallselect" src="https://github.com/user-attachments/assets/0591b204-9e0e-44c8-82f1-55a35f2a1b95"/></td><td>
+<img width="280" alt="wlogout" src="https://github.com/user-attachments/assets/3983edf0-898a-4a74-b40b-3e04a684be4f"/></td></tr></table></div>
+
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
+#
+
+<a id="structure"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=STRUCTURE" width="435"/>
+
+```
+$HOME/BlackNode/
+├── blacknode.sh                  ← main installer, start here
+├── yay.sh / flatpak.sh / bins.sh / update.sh
+├── hyprland.sh / hyprlock.sh / hyprshot.sh
+├── waybar.sh / rofi.sh
+├── kitty.sh / alacritty.sh / zsh.sh
+├── nvim.sh / yazi.sh / fastfetch.sh
+├── cava.sh / clipse.sh / dunst.sh / wlogout.sh
+├── wallust.sh / wallpaper.sh / gtk.sh / awww.sh
+├── welcome.sh / introduction.sh / information.sh / changelog.sh / help.sh
+│
+├── Assets/
+│   └── desktop.png · fastfetch.png · hyprlock.png · rofi*.png · wallselect.png · wlogout.png
+│
+└── Configs/
+    ├── .config/
+    │   └── hypr · waybar · kitty · alacritty · nvim · rofi · dunst
+    │       zsh · powerlevel10k · yazi · fastfetch · cava · clipse
+    │       wallust · wlogout · gtk-3.0 · gtk-4.0 · qt5ct · sddm
+    └── .local/
+        └── bin/
+```
+
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
+#
+
+<a id="community"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=HOLLOWSEC" width="435"/>
+
+BlackNode is maintained by [zhaleff](https://github.com/zhaleff) and supported by the **HollowSec** community — a group of people passionate about cybersecurity, programming, and building cool things together. We believe in learning by doing, sharing knowledge freely, and lifting each other up.
+
+If you want to chat, ask questions, or just hang out with people who get it:
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/zhaleff">Zhaleff</a> and the HollowSec community.</p>
-  <p>Happy hacking.</p>
+<a href="https://discord.gg/hollowsec"><img src="https://img.shields.io/badge/Join%20HollowSec-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=302D41"/></a>
+</div>
+
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
+#
+
+<a id="words"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=A+WORD+TO+YOU" width="435"/>
+
+I have been where you are. I have stared at other people's dotfiles, overwhelmed by the complexity, convinced I could never create something like that. But I started small. I copied one line, then another. I broke things and fixed them. And slowly, it became mine.
+
+You can do this. You are capable of more than you know. All it takes is the courage to start, the patience to learn from mistakes, and the belief that you belong here.
+
+BlackNode is not the answer. It is just a starting point. The real answer is inside you.
+
+Now go. Explore. Break things. Fix them. And make this your own.
+
+<div align="right">
+  <br>
+  <a href="#-by-zhaleff--hollowsec"><kbd> <br> 🡅 <br> </kbd></a>
+</div>
+
+#
+
+<a id="licence"></a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=22&pause=1000&color=6CB6FF&vCenter=true&width=435&height=25&lines=LICENCE" width="435"/>
+
+BlackNode is released under the [MIT Licence](./LICENSE). You are free to use, modify, and share it however you wish. Attribution is appreciated but not required.
+
+#
+
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/zhaleff">zhaleff</a> and the HollowSec community.</p>
+  <p><i>Happy hacking.</i></p>
+</div>
+
+<div align="right">
+  <sub>Last edited on: 2025</sub>
 </div>
