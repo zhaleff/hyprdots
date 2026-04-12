@@ -1,176 +1,302 @@
-<h1 align="center" style="color:#cba6f7; margin-bottom:0.2em;">
-  ZepharDev: 🍁 Crafting Minimal, Coherent Workflows
+<h1 align="center">
+  <img src="Assets/desktop.png" alt="BlackNode Desktop" width="100%"/>
 </h1>
 
-<p align="center">
-  <a href="https://github.com/ZepharDev/hyprdots/stargazers">
-    <img src="https://img.shields.io/github/stars/ZepharDev/hyprdots?color=cba6f7&style=for-the-badge&label=Stars&labelColor=1e1e2e&logo=starship&logoColor=white" style="margin: 0 10px;">
-  </a>
-  <a href="https://github.com/ZepharDev/hyprdots/network/members">
-    <img src="https://img.shields.io/github/forks/ZepharDev/hyprdots?color=cba6f7&style=for-the-badge&label=Forks&labelColor=1e1e2e&logo=sourcetree&logoColor=white" style="margin: 0 10px;">
-  </a>
-  <a href="https://github.com/ZepharDev/hyprdots/commits">
-    <img src="https://img.shields.io/github/commit-activity/y/ZepharDev/hyprdots?color=eba0ac&style=for-the-badge&label=Commits&labelColor=1e1e2e&logo=git&logoColor=white" style="margin: 0 10px;">
-  </a>
-  <a href="https://github.com/ZepharDev/hyprdots/commits">
-    <img src="https://img.shields.io/github/last-commit/ZepharDev/hyprdots?color=f9e2af&style=for-the-badge&label=Last%20Commit&labelColor=1e1e2e&logo=clockify&logoColor=white" style="margin: 0 10px;">
-  </a>
-</p>
+<div align="center">
+  <a href="https://github.com/zhaleff/BlackNode/stargazers"><img src="https://img.shields.io/github/stars/zhaleff/BlackNode?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"></a>&nbsp;&nbsp;
+  <a href="https://github.com/zhaleff/BlackNode/forks"><img src="https://img.shields.io/github/forks/zhaleff/BlackNode?style=for-the-badge&logo=git&logoColor=f9e2af&label=Forks&labelColor=302D41&color=f9e2af" alt="forks"></a>&nbsp;&nbsp;
+  <a href="https://github.com/zhaleff/BlackNode/issues"><img src="https://img.shields.io/github/issues/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=eba0ac&label=Issues&labelColor=302D41&color=eba0ac" alt="issues"></a>&nbsp;&nbsp;
+  <a href="https://github.com/zhaleff/BlackNode/commits/main"><img src="https://img.shields.io/github/last-commit/zhaleff/BlackNode?style=for-the-badge&logo=github&logoColor=white&label=Last%20Commit&labelColor=302D41&color=A6E3A1" alt="last commit"></a>&nbsp;&nbsp;
+  <a href="https://github.com/zhaleff/BlackNode/blob/main/LICENSE"><img src="https://img.shields.io/github/license/zhaleff/BlackNode?style=for-the-badge&logo=open-source-initiative&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="license"></a>&nbsp;&nbsp;
+  <a href="https://discord.gg/hollowsec"><img src="https://img.shields.io/badge/chat-discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=302D41" alt="discord"></a>
+</div>
 
+#
 
-<h1 align="center">Hyprdots</h1>
+<div align="center">
+  &ensp;<a href="./INSTALLATION.md"><kbd> <br> Installation <br> </kbd></a>&ensp;
+  &ensp;<a href="./KEYBINDS.md"><kbd> <br> Keybindings <br> </kbd></a>&ensp;
+  &ensp;<a href="./MODULES.md"><kbd> <br> Modules <br> </kbd></a>&ensp;
+  &ensp;<a href="./WAYBAR.md"><kbd> <br> Waybar <br> </kbd></a>&ensp;
+  &ensp;<a href="./REFERENCE.md"><kbd> <br> Reference <br> </kbd></a>&ensp;
+  &ensp;<a href="./HollowSec.md"><kbd> <br> HollowSec <br> </kbd></a>&ensp;
+</div>
 
-Welcome to my personal configurations, I hope you like the settings
-The configurations are still in development, so please be patient, l'll be improving the techniques over time
-Star the repo to keep up with the latest updates and improvements
+#
 
+<div align="center">
+  <h3>Your home in the terminal. Simple, clean, yours.</h3>
+  <p><i>Dotfiles that embrace, not complicate.</i></p>
+</div>
 
+#
 
-<h1 align=center>Requeriments</h1>
+## Hello.
 
-## 🗝️ Core Environment
+This is my personal Linux configuration. BlackNode is a collection of dotfiles that grew from years of tweaking, breaking, and slowly understanding what makes a system feel like home. It is not a monolithic rice that you copy and forget. It is a living set of files, each one written to be read, understood, and eventually changed by you.
 
-- Hyprland ⇌ [hyprland.org](https://hyprland.org)
-- Waybar ⇌ [GitHub](https://github.com/Alexays/Waybar)
-- Rofi (Wayland) ⇌ [GitHub](https://github.com/lbonn/rofi)
-- Kitty Terminal ⇌ [Kitty](https://sw.kovidgoyal.net/kitty/)
-- Zsh ⇌ [www.zsh.org](https://www.zsh.org/)
+My first dotfiles were horrible. They were messy, inconsistent, and half of them did not even work. But I kept at it, and over time they became something I was proud to share. BlackNode is that pride, packaged up and offered to you with one wish: take it, make it your own, and in doing so discover that you are capable of far more than you think.
 
----
+#
 
-## 🗂️ System & Widgets
+## Showcase
 
-- SwayOSD ⇌ [GitHub](https://github.com/ErikReider/SwayOSD)
-- SwayNC ⇌ [GitHub](https://github.com/ErikReider/SwayNotificationCenter)
-- Hyprlock ⇌ [GitHub](https://github.com/hyprwm/Hyprlock)
-- hypridle ⇌ [GitHub](https://github.com/hyprwm/hypridle)
-- hyprpaper ⇌ [GitHub](https://github.com/hyprwm/hyprpaper)
-- hyprshot ⇌ [GitHub](https://github.com/HyprWM/hyprshot)
-- wlogout ⇌ [GitHub](https://github.com/ArtsyMacaw/wlogout)
+<div align="center">
 
----
+<div align="center">
+  <img src="Assets/desktop.png" width="49%" alt="Desktop"/>
+  <img src="Assets/fastfetch.png" width="49%" alt="Fastfetch"/>
+</div>
 
-## ⚙️ Utilities & Tools
+<br>
 
-- btop ⇌ [GitHub](https://github.com/aristocratos/btop)
-- FastFetch ⇌ [GitHub](https://github.com/fastfetch-cli/fastfetch)
-- cava ⇌ [GitHub](https://github.com/karlstav/cava)
-- clipse ⇌ [GitHub](https://github.com/savedra1/clipse)
-- yay ⇌ [GitHub](https://github.com/Jguer/yay)
-- Dmenu ⇌ [tools.suckless.org](https://tools.suckless.org/dmenu/)
-- nvim ⇌ [neovim.io](https://neovim.io/)
-- Pipewire ⇌ [pipewire.org](https://pipewire.org/)
-- NetworkManager ⇌ [wiki.archlinux.org](https://wiki.archlinux.org/title/NetworkManager)
-- nm-applet ⇌ [wiki.archlinux.org](https://wiki.archlinux.org/title/NetworkManager#nm-applet)
-- dunst ⇌ [GitHub](https://github.com/dunst-project/dunst)
-<h1 align="center">Installation</h1>
+<div align="center">
+  <img src="Assets/hyprlock.png" width="49%" alt="Hyprlock"/>
+  <img src="Assets/wlogout.png" width="49%" alt="Wlogout"/>
+</div>
 
-An automated script with multiple options to install the configurations. I don't recommend using the configuration unless you're convinced to use the configurations. 
+<br>
 
-<h2 align="center">Advertence 🦅</h2>
+<div align="center">
+  <img src="Assets/rofi.png" width="32%" alt="Rofi"/>
+  <img src="Assets/rofi_2.png" width="32%" alt="Rofi 2"/>
+  <img src="Assets/rofi_3.png" width="32%" alt="Rofi 3"/>
+</div>
 
-the installation script is still under development, so i do not recommend using it. if you want to test the settings, use the script, but not the option that says full setup, choose the manual selection option, there you can select what to install, whether waybar, nvim, etc. if you want more information, you can contact me via reddit or mail, the "uninstall, rescue" options still do not work completely, please do not run the code without knowing what it does, if you find an error, you can notify me in the email. these are my personal settings, so everything is set to the most comfortable fit for me. thank you.
+<br>
 
-<h2 align="left">Automatic installation</h2>
+<div align="center">
+  <img src="Assets/rofi_5.png" width="49%" alt="Rofi 5"/>
+  <img src="Assets/rofi_8.png" width="49%" alt="Rofi 8"/>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="Assets/wallselect.png" width="80%" alt="Wallpaper Selector"/>
+</div>
+
+</div>
+
+#
+
+## What is Inside?
+
+BlackNode brings together a deliberate stack of tools that work in harmony. Every tool was chosen for a reason. Nothing is here just because it is popular.
+
+| Component | Tool | Role |
+|---|---|---|
+| Window Manager | Hyprland | Dynamic tiling Wayland compositor |
+| Status Bar | Waybar | Fully configurable bar with multiple styles |
+| Terminal | Kitty + Alacritty | GPU-accelerated terminal emulators |
+| Shell | Zsh + Powerlevel10k | Fast shell with a powerful, informative prompt |
+| Launcher | Rofi | App launcher, window switcher and dmenu replacement |
+| Notifications | Dunst | Lightweight and clean notification daemon |
+| Lockscreen | Hyprlock + Hypridle | GPU-accelerated lock screen with idle management |
+| File Manager | Yazi | Blazing-fast terminal file manager written in Rust |
+| Editor | Neovim | Extensible modal text editor |
+| Theming | Wallust | Generates full colour schemes from your wallpaper |
+| Wallpaper Daemon | awww | GPU-accelerated Wayland wallpaper daemon |
+| Clipboard | Clipse | Persistent clipboard history manager for Wayland |
+| Audio Visualiser | Cava | Terminal-based audio visualiser |
+| Logout Screen | Wlogout | Clean and configurable session management screen |
+| System Info | Fastfetch | Fast, customisable system information tool |
+| AUR Helper | yay | AUR package manager built on top of pacman |
+
+#
+
+## Installation
+
+#
+
+### Quick install
+
+Clone the repository into your home directory and run the main installer. That is all you need to do to get started.
 
 ```bash
-git clone https://github.com/ZepharDev/hyprdots.git && cd ~/hyprdots && bash setup-v1.sh
+git clone https://github.com/zhaleff/BlackNode.git $HOME/BlackNode
+cd $HOME/BlackNode
+bash blacknode.sh
 ```
 
-I can't guarantee that the script will work at all; it may have bugs. Please be careful. I'll be improving it and releasing versions. There are multiple options. 
+`blacknode.sh` is the entry point for BlackNode. It will walk you through the setup interactively and call individual component scripts based on your choices. You decide what gets installed — nothing runs without your input.
 
-# Issues
+#
 
-The code doesn't work at all, so as stated before, use the manual application, don't use the script, thanks. 
+### Manual install
 
+Every script in BlackNode is fully independent. You can run any of them on their own, in any order, without going through `blacknode.sh` at all. This is the recommended approach if you want to cherry-pick only what you need.
 
-<h1 align="center">Hyprdots • Keybinds 🍂</h1>
+If you do not have an AUR helper yet, start here:
 
-## 🍁 Core Actions
+```bash
+bash yay.sh
+```
 
-| 🗝️ Keys | 🌟 Action |
-| :------------------------------ | :---------------------------- |
-| `⎈ SUPER` + `D` | Open Terminal |
-| `⎈ SUPER` + `Q` | Kill Focused Window |
-| `⎈ SUPER` + `M` | Exit Hyprland Session |
-| `⎈ SUPER` + `L` | Lock Screen |
-| `⎈ SUPER` + `⇧ Shift` + `F` | Toggle Fullscreen |
+Then run whatever components you want:
 
----
+```bash
+# Documentation — informational only, no side effects
+bash welcome.sh
+bash introduction.sh
+bash information.sh
+bash changelog.sh
+bash help.sh
 
-## 🍂 Applications & Tools
+# Core
+bash flatpak.sh
+bash bins.sh
+bash update.sh
 
-| 🗝️ Keys | 🌊 Action |
-| :------------------------------ | :---------------------------- |
-| `⎈ SUPER` + `N` | Notification Center |
-| `⎈ SUPER` + `W` | Open Browser |
-| `⎈ SUPER` + `Y` | Open Music Player |
-| `⎈ SUPER` + `I` | Music Player (Alt) |
-| `⎈ SUPER` + `E` | File Manager |
-| `⎈ SUPER` + `X` | Power Menu |
-| `⎈ SUPER` + `A` | Audio Control (Pavucontrol) |
-| `⎈ SUPER` + `C` | Open Clipboard (Alacritty) |
-| `⎈ SUPER` + `⇧ Shift` + `R` | Emoji Menu |
-| `⎈ SUPER` + `R` | Rofi Launcher |
-| `⎈ SUPER` + `G` | Gallery (Shotwell) |
-| `⎈ SUPER` + `K` | Wallpaper Menu |
-| `⎈ SUPER` + `H` | Screenshot (Hyprshot) |
-| `⎈ SUPER` + `T` | Floating Terminal |
+# Window Manager
+bash hyprland.sh
+bash hyprlock.sh
+bash hyprshot.sh
 
----
+# Bar & Launcher
+bash waybar.sh
+bash rofi.sh
 
-## 🍃 Window Management
+# Terminal & Shell
+bash kitty.sh
+bash alacritty.sh
+bash zsh.sh
 
-| 🗝️ Keys | 🦅 Action |
-| :------------------------------ | :---------------------------- |
-| `⎈ SUPER` + `F` | Toggle Floating |
-| `⎈ SUPER` + `P` | Toggle Pseudo Tiling |
-| `⎈ SUPER` + `J` | Toggle Split |
-| `⎈ SUPER` + `S` | Toggle Scratchpad |
-| `⎈ SUPER` + `⇧ Shift` + `S` | Send to Scratchpad |
-| `⎈ SUPER` + `←` | Focus Left |
-| `⎈ SUPER` + `→` | Focus Right |
-| `⎈ SUPER` + `↑` | Focus Up |
-| `⎈ SUPER` + `↓` | Focus Down |
-| `⎈ SUPER` + `1-0` | Switch Workspace |
-| `⎈ SUPER` + `⇧ Shift` + `1-0` | Move Window to Workspace |
-| `⎈ SUPER` + `Scroll Up` | Prev Workspace |
-| `⎈ SUPER` + `Scroll Down` | Next Workspace |
-| `⎈ SUPER` + `LMB` | Move Window |
-| `⎈ SUPER` + `RMB` | Resize Window |
+# Tools
+bash nvim.sh
+bash yazi.sh
+bash fastfetch.sh
+bash cava.sh
+bash clipse.sh
+bash dunst.sh
+bash wlogout.sh
 
----
+# Theming
+bash wallust.sh
+bash wallpaper.sh
+bash gtk.sh
+bash awww.sh
+```
 
-## ❄️ Multimedia & Brightness
+For a complete breakdown of what every script does, see [INSTALLATION.md](./INSTALLATION.md).
 
-| 🗝️ Keys | 🌴 Action |
-| :------------------------------ | :---------------------------- |
-| `XF86AudioRaiseVolume` | Volume Up |
-| `XF86AudioLowerVolume` | Volume Down |
-| `XF86AudioMute` | Mute Audio |
-| `XF86AudioMicMute` | Mute Mic |
-| `XF86MonBrightnessUp` | Brightness Up |
-| `XF86MonBrightnessDown` | Brightness Down |
-| `XF86AudioNext` | Next Track |
-| `XF86AudioPause` | Play/Pause |
-| `XF86AudioPlay` | Play/Pause |
-| `XF86AudioPrev` | Previous Track |
+#
+
+## Repository Structure
+
+```
+$HOME/BlackNode/
+├── blacknode.sh                  ← main installer, start here
+├── yay.sh
+├── hyprland.sh
+├── hyprlock.sh
+├── hyprshot.sh
+├── waybar.sh
+├── rofi.sh
+├── kitty.sh
+├── alacritty.sh
+├── zsh.sh
+├── nvim.sh
+├── yazi.sh
+├── fastfetch.sh
+├── cava.sh
+├── clipse.sh
+├── dunst.sh
+├── wlogout.sh
+├── wallust.sh
+├── wallpaper.sh
+├── gtk.sh
+├── awww.sh
+├── flatpak.sh
+├── bins.sh
+├── update.sh
+├── welcome.sh
+├── introduction.sh
+├── information.sh
+├── changelog.sh
+├── help.sh
+│
+├── Assets/
+│   ├── desktop.png
+│   ├── fastfetch.png
+│   ├── hyprlock.png
+│   ├── rofi.png
+│   ├── rofi_2.png
+│   ├── rofi_3.png
+│   ├── rofi_5.png
+│   ├── rofi_8.png
+│   ├── wallselect.png
+│   └── wlogout.png
+│
+└── Configs/
+    ├── .config/
+    │   ├── hypr/
+    │   ├── waybar/
+    │   ├── kitty/
+    │   ├── alacritty/
+    │   ├── nvim/
+    │   ├── rofi/
+    │   ├── dunst/
+    │   ├── zsh/
+    │   ├── powerlevel10k/
+    │   ├── yazi/
+    │   ├── fastfetch/
+    │   ├── cava/
+    │   ├── clipse/
+    │   ├── wallust/
+    │   ├── wlogout/
+    │   ├── gtk-3.0/
+    │   ├── gtk-4.0/
+    │   ├── qt5ct/
+    │   └── sddm/
+    └── .local/
+        └── bin/
+```
+
+#
+
+## Documentation
+
+Each major aspect of BlackNode has its own dedicated document. Use the buttons at the top to jump to them, or open the files directly.
+
+| Document | Content |
+|---|---|
+| [INSTALLATION.md](./INSTALLATION.md) | Full step-by-step guide — every script explained in detail |
+| [KEYBINDS.md](./KEYBINDS.md) | Every Hyprland keybinding, documented and organised |
+| [MODULES.md](./MODULES.md) | Deep dive into Waybar modules and what each one does |
+| [WAYBAR.md](./WAYBAR.md) | Available Waybar styles and how to switch between them |
+| [REFERENCE.md](./REFERENCE.md) | Sources, inspiration and how to build your own dotfiles |
+| [HollowSec.md](./HollowSec.md) | The community behind BlackNode |
+
+#
+
+## The HollowSec Community
+
+BlackNode is maintained by [zhaleff](https://github.com/zhaleff) and supported by the **HollowSec** community — a group of people passionate about cybersecurity, programming, and building cool things together. We believe in learning by doing, sharing knowledge freely, and lifting each other up.
+
+If you want to chat, ask questions, or just hang out with people who get it, join us: [discord.gg/hollowsec](https://discord.gg/hollowsec).
+
+#
+
+## A Word to You
+
+I have been where you are. I have stared at other people's dotfiles, overwhelmed by the complexity, convinced I could never create something like that. But I started small. I copied one line, then another. I broke things and fixed them. And slowly, it became mine.
+
+You can do this. You are capable of more than you know. All it takes is the courage to start, the patience to learn from mistakes, and the belief that you belong here.
+
+BlackNode is not the answer. It is just a starting point. The real answer is inside you.
+
+Now go. Explore. Break things. Fix them. And make this your own.
+
+#
+
+## Licence
+
+BlackNode is released under the [MIT Licence](./LICENSE). You are free to use, modify, and share it however you wish. Attribution is appreciated but not required.
+
+#
 
 <div align="center">
-  <p>
-    <img src="https://img.shields.io/badge/Built_with-Hyprland-cba6f7?style=for-the-badge&logo=hyprland&logoColor=white&labelColor=1e1e2e" />
-    <img src="https://img.shields.io/badge/Powered_by-Arch_Linux-f5c2e7?style=for-the-badge&logo=arch-linux&logoColor=white&labelColor=1e1e2e" />
-    <img src="https://img.shields.io/badge/Crafted_by-ZepharDev-f9e2af?style=forhe-badge&logo=github&logoColothe-badge&logo=github&logoColor=white&labelColor=1e1e2e" />
-
-  </p>
-
-<div align="center">
-  <p>
-    <img src="https://img.shields.io/badge/✝%20Christ_First-eba0ac?style=for-the-badge&labelColor=1e1e2e&logoColor=white" />
-    <img src="https://img.shields.io/badge/✟%20Soli_Deo_Gloria-cba6f7?style=for-the-badge&labelColor=1e1e2e&logoColor=white" />
-    <img src="https://img.shields.io/badge/☧%20Faith-f5c2e7?style=for-the-badge&labelColor=1e1e2e&logoColor=white" />
-  </p>
-  <p>
-    <sub>Code and craft — for Christ alone. YHWH reigns.</sub>
-  </p>
+  <p>Made with ❤️ by <a href="https://github.com/zhaleff">zhaleff</a> and the HollowSec community.</p>
+  <p>Happy hacking.</p>
 </div>
