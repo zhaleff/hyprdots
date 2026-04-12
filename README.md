@@ -64,20 +64,22 @@ My first dotfiles were horrible. They were messy, inconsistent, and half of them
 </div>
 
 <br>
+<div align="center"><table><tr><td>Desktop</td><td>Fastfetch</td><td>Hyprlock</td></tr><tr><td>
+<img width="280" alt="desktop" src="https://github.com/user-attachments/assets/07407b3a-9b7f-4996-9b56-c838c7d246f8"/></td><td>
+<img width="280" alt="fastfetch" src="https://github.com/user-attachments/assets/fd5ceba2-e933-4aad-b44e-3f1871813a54"/></td><td>
+<img width="280" alt="hyprlock" src="https://github.com/user-attachments/assets/33fa3c75-cff2-4c8c-9901-8d3d97935573"/></td></tr></table></div>
 
-<div align="center">
-  <img width="420" alt="desktop" src="https://github.com/user-attachments/assets/07407b3a-9b7f-4996-9b56-c838c7d246f8" />
-  <img width="420" alt="fastfetch" src="https://github.com/user-attachments/assets/fd5ceba2-e933-4aad-b44e-3f1871813a54" />
-  <img width="420" alt="hyprlock" src="https://github.com/user-attachments/assets/33fa3c75-cff2-4c8c-9901-8d3d97935573" />
-  <img width="420" alt="rofi" src="https://github.com/user-attachments/assets/9c74ae48-33ae-478d-9443-ed81a3705fe5" />
-  <img width="420" alt="rofi_2" src="https://github.com/user-attachments/assets/c5752a1d-479e-4943-b47d-32cdb901bdf2" />
-  <img width="420" alt="rofi_3" src="https://github.com/user-attachments/assets/11ffd6bd-bc62-44bf-88ec-5dc48b5fb07e" />
-  <img width="420" alt="rofi_5" src="https://github.com/user-attachments/assets/b796746e-dbed-4239-bcee-a1666632d300" />
-  <img width="420" alt="rofi_8" src="https://github.com/user-attachments/assets/a8d958fb-6d02-45cf-ab90-249cfd7ba9a2" />
-  <img width="420" alt="wallselect" src="https://github.com/user-attachments/assets/0591b204-9e0e-44c8-82f1-55a35f2a1b95" />
-  <img width="480" alt="wlogout" src="https://github.com/user-attachments/assets/3983edf0-898a-4a74-b40b-3e04a684be4f" />
-</div>
+<div align="center"><table><tr><td>Rofi</td><td>Rofi 2</td><td>Rofi 3</td></tr><tr><td>
+<img width="280" alt="rofi" src="https://github.com/user-attachments/assets/9c74ae48-33ae-478d-9443-ed81a3705fe5"/></td><td>
+<img width="280" alt="rofi_2" src="https://github.com/user-attachments/assets/c5752a1d-479e-4943-b47d-32cdb901bdf2"/></td><td>
+<img width="280" alt="rofi_3" src="https://github.com/user-attachments/assets/11ffd6bd-bc62-44bf-88ec-5dc48b5fb07e"/></td></tr>
+<tr><td>Rofi 5</td><td>Rofi 8</td><td></td></tr><tr><td>
+<img width="280" alt="rofi_5" src="https://github.com/user-attachments/assets/b796746e-dbed-4239-bcee-a1666632d300"/></td><td>
+<img width="280" alt="rofi_8" src="https://github.com/user-attachments/assets/a8d958fb-6d02-45cf-ab90-249cfd7ba9a2"/></td><td></td></tr></table></div>
 
+<div align="center"><table><tr><td>Wallpaper Select</td><td>Wlogout</td></tr><tr><td>
+<img width="280" alt="wallselect" src="https://github.com/user-attachments/assets/0591b204-9e0e-44c8-82f1-55a35f2a1b95"/></td><td>
+<img width="280" alt="wlogout" src="https://github.com/user-attachments/assets/3983edf0-898a-4a74-b40b-3e04a684be4f"/></td></tr></table></div>
 <br>
 
 <div align="center">
