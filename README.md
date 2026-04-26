@@ -1,18 +1,8 @@
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300px" align="right" alt="anime coding gif"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&duration=1&pause=99999&color=000000&width=300&height=55&lines=zhaleff" alt="zhaleff"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3000&pause=900&color=888888&width=460&height=24&lines=Java+%7C+Bash+%7C+React+%E2%80%94+learning+the+hard+way;break+it.+read+it.+rebuild+it.;no+shortcuts.+no+tutorials." alt="subtitle"/>
-
-<br/><br/>
-
-```yaml
-status:
-  learning   : systems & low-level
-  path       : Java → Bash → React → ???
-  method     : break it, understand it, rebuild it
-  currently  : [ grinding ]
-```
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&duration=1&pause=99999&color=FFFFFF&center=true&vCenter=true&width=300&height=55&lines=zhaleff" alt="zhaleff"/>
+  <br/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=13&duration=3000&pause=900&color=888888&center=true&vCenter=true&width=500&height=24&lines=Java+%7C+Bash+%7C+React;always+learning.+never+stopping.;El+Salvador+%F0%9F%87%B8%F0%9F%87%BB" alt="subtitle"/>
+</div>
 
 <br/>
 
@@ -22,10 +12,20 @@ status:
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhaleff&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=666666&layout=compact&langs_count=8"/>
 </div>
 
+<div align="center">
+  <img src="https://media0.giphy.com/media/ov35t5ROpH64U/giphy.gif" width="340"/>
+  &nbsp;
+  <img src="https://media4.giphy.com/media/3o6nULmOVbmAyELkJ2/giphy.gif" width="340"/>
+</div>
+
 <br/>
 
 <div align="center">
   <img width="70%" src="https://github-readme-streak-stats.herokuapp.com?user=zhaleff&theme=dark&hide_border=true&background=0d1117&stroke=ffffff15&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=666666&currStreakLabel=666666&sideLabels=666666&dates=444444"/>
+</div>
+
+<div align="center">
+  <img src="https://media4.giphy.com/media/xT1R9VGHCq8sM9K8Mw/giphy.gif" width="700"/>
 </div>
 
 <br/>
@@ -40,7 +40,7 @@ status:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zhaleff/zhaleff/output/github-contribution-grid-snake-dark.svg"/>
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zhaleff/zhaleff/output/github-contribution-grid-snake.svg"/>
-    <img alt="snake eating contributions" width="100%" src="https://raw.githubusercontent.com/zhaleff/zhaleff/output/github-contribution-grid-snake-dark.svg"/>
+    <img alt="snake" width="100%" src="https://raw.githubusercontent.com/zhaleff/zhaleff/output/github-contribution-grid-snake-dark.svg"/>
   </picture>
 </div>
 
