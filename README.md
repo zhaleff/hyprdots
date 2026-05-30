@@ -246,6 +246,18 @@
 
 <br>
 
+## ✦ Star History
+
+<a href="https://star-history.com/#awesome-dotfiles/dotfiles&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=awesome-dotfiles/dotfiles&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=awesome-dotfiles/dotfiles&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=awesome-dotfiles/dotfiles&type=Date" />
+  </picture>
+</a>
+
+<br>
+
 ## ✦ Contributing
 
 Want your setup in here? Submit it at **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)** with a screenshot, color palette, and dotfiles link. Once approved it shows up on the site *and* in this index.
@@ -258,6 +270,6 @@ submit → get reviewed → appear in the gallery + this README
 
 <div align="center">
 
-made with ♥ by the community · [website](https://awesome-dotfiles.vercel.app) · [submit your dots](https://awesome-dotfiles.vercel.app)
+made with ♥ by the community · [website](https://awesome-dotfiles.web.app) · [submit your dots](https://awesome-dotfiles.web.app)
 
 </div>
