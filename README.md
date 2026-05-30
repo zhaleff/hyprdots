@@ -258,6 +258,6 @@ submit → get reviewed → appear in the gallery + this README
 
 <div align="center">
 
-made with ♥ by the community · [website](https://awesome-dotfiles.web.app) · [submit your dots](https://awesome-dotfiles.web.app)
+made with ♥ by the community · [website](https://awesome-dotfiles.vercel.app) · [submit your dots](https://awesome-dotfiles.vercel.app)
 
 </div>
