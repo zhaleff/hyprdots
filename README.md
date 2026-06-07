@@ -1,275 +1,203 @@
 <div align="center">
 
-# `~/dotfiles`
+<!---------------------------------------------------------------------------->
+<!--  HEADER — SVG animated identity mark                                   -->
+<!---------------------------------------------------------------------------->
 
-### a curated gallery of Linux desktop setups
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:1a1a2e&height=120&section=header&text=&fontSize=0" width="100%"/>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&duration=1&pause=999999&color=F5F5F5&center=true&vCenter=true&width=600&height=80&lines=zhaleff">
+  <img alt="zhaleff" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&duration=1&pause=999999&color=0d0d0d&center=true&vCenter=true&width=600&height=80&lines=zhaleff">
+</picture>
 
-[![setups indexed](https://img.shields.io/badge/─%20setups%20indexed%20─-45-a78bfa?style=for-the-badge&labelColor=0d0d14)](https://awesome-dotfiles.web.app)&nbsp;&nbsp;
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-34d399?style=for-the-badge&labelColor=0d0d14)](https://github.com)&nbsp;&nbsp;
-[![License](https://img.shields.io/badge/license-MIT-60a5fa?style=for-the-badge&labelColor=0d0d14)](https://github.com)
+<br/>
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3500&pause=900&color=888888&center=true&vCenter=true&multiline=false&width=700&height=30&lines=frontend+engineer+%E2%80%94+I+care+about+how+things+feel.;React+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Tailwind+%C2%B7+Framer+Motion;Building+interfaces+worth+the+user%27s+attention.;Precision+over+decoration.+Always.">
+  <img alt="Rotating subtitle" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3500&pause=900&color=555555&center=true&vCenter=true&multiline=false&width=700&height=30&lines=frontend+engineer+%E2%80%94+I+care+about+how+things+feel.;React+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Tailwind+%C2%B7+Framer+Motion;Building+interfaces+worth+the+user%27s+attention.;Precision+over+decoration.+Always.">
+</picture>
 
-> Every screenshot, full color palette, and setup detail lives at **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)**  
-> This README is the index — the gallery is the destination.
+<br/>
+<br/>
 
-</div>
+<!---------------------------------------------------------------------------->
+<!--  PHILOSOPHY STRIP — three tight columns, no headers                    -->
+<!---------------------------------------------------------------------------->
 
-<br>
-
-## Contents
-
-- [Arch Linux](#-arch-linux)
-  - [Hyprland](#hyprland) · [Sway](#sway) · [Qtile](#qtile) · [KDE](#kde) · [Niri](#niri) · [dwm](#dwm) · [AwesomeWM](#awesomewm) · [Other](#other)
-- [NixOS](#-nixos)
-- [EndeavourOS](#-endeavouros)
-- [Fedora](#-fedora)
-- [Void Linux](#-void-linux)
-- [Debian](#-debian)
-- [Contributing](#-contributing)
-
-<br>
-
-## 🐧 Arch Linux
-
-<br>
-
-### Hyprland
-
-> The compositor of choice for the community. Smooth animations, flexible tiling, and endless customization.
-
-- **[ESHAYAT102/dotfiles](https://github.com/ESHAYAT102/dotfiles)** — `Eshayat Al-Wasiu`  
-  Minimal Omarchy rice · Catppuccin Mocha · fish shell · Ghostty terminal
-
-- **[ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration)** — `@ilyamiro`  
-  NixOS + Hyprland · installer targets Arch-based distros too
-
-- **[cebem1nt/dotfiles](https://github.com/cebem1nt/dotfiles)** — `cebem1nt`  
-  Modular & extensible · Waybar · swaync · rofi · Spicetify theme · light/dark switcher
-
-- **[anonymous — hyprland ambxst](https://github.com)** — `anonymous`  
-  Ambxst Quickshell · clean, well-designed modules
-
-- **[Darkkal44/Cozytile](https://github.com/Darkkal44/Cozytile)** — `Darkkal44`  
-  Qtile on Hyprland · WM scripted entirely in Python
-
-- **[Bixer234/Dots](https://github.com/Bixer234/Dots)** — `Bixer234`  
-  Personal daily driver · simple and honest
-
-- **[zhaleff/hyprcraft](https://github.com/zhaleff/hyprcraft)** — `zhaleff`  
-  Meticulously crafted · focused on aesthetics, consistency, usability
-
-- **[vyrx-dev/symphony](https://github.com/vyrx-dev/symphony.git)** — `vyrx-dev`  
-  Minimal · productivity-first · the setup vyrx-dev wished existed
-
-- **[zhaleff/BlackNode](https://github.com/zhaleff/BlackNode)** — `zhaleff`  
-  Dark & minimalist · charcoal backgrounds · sharp contrast · zero bloat
-
-- **[caioax/lyne-dots](https://github.com/caioax/lyne-dots)** — `caioax`  
-  Custom Quickshell components · distinctive Lyne aesthetic
-
-- **[notcandy001/Moonveil](https://github.com/notcandy001/Moonveil)** — `notcandy001`  
-  Real workflow focus · hand-tuned · barcode-style lockscreen
-
-- **[linuxmobile/hyprland-dots](https://github.com/linuxmobile/hyprland-dots)** — `linuxmobile`  
-  First Hyprland rice · Rosé Pine palette · a community classic
-
-- **[leaf — Hyprland Aura Soft](https://github.com)** — `leaf`  
-  Aura aesthetic · soft palette · gentle tones, quietly elegant
-
-- **[leaf — caelestiax](https://github.com/Axenide/Ambxst)** — `leaf`  
-  Caelestiax frame · AI modules · extra integrations
-
-- **[leaf — hyprland retro](https://github.com/Axenide/Ambxst)** — `leaf`  
-  Ambxst shell · retro frame · nostalgic take on the Hyprland desktop
-
-- **[cybersnake223/Hypr](https://github.com/Cybersnake223/Hypr)** — `cybersnake223`  
-  Minimal & keyboard-driven · laptop-first · script-heavy · zero bloat
-
-- **[aloy555 — AM i A psYcHo?](https://working_on_it.com)** — `aloy555`  
-  Full psycho aesthetic · custom-made wallpaper
-
-- **[linuxmobile — Old Hyprland Rice](https://github.com/linuxmobile/hyprland-dots)** — `linuxmobile`  
-  Older iteration · already showed the attention to detail that defined later setups
-
-- **[AdiKsOnDev/Monoland](https://github.com/AdiKsOnDev/Monoland)** — `AdiKsOn`  
-  Monochromatic · Quickshell widgets · MaterialUI-style · dynamic wallpaper colors
-
-- **[Grey-007/Hyprmat-dots](https://github.com/Grey-007/Hyprmat-dots)** — `Grey-007`  
-  Hyprmat — a Hyprland rice on Arch
-
-- **[binoymanoj/dotfiles](https://github.com/binoymanoj/dotfiles)** — `anonymous`  
-  HyprArch Dots
-
-- **[krishna4a6av/.config](https://github.com/krishna4a6av/.config)** — `anonymous`  
-  Generic but mine · walls: [krishna4a6av/Wallpapers](https://github.com/krishna4a6av/Wallpapers)
-
-- **[doccnova/serene-hyprland](https://codeberg.org/doccnova/serene-hyprland)** — `doccnova`  
-  Artix-centered · GNU Stow · dynamic colors via Matugen & Wallust · scratchpad workspace
-
-<br>
-
-### Sway
-
-> Tiling done right — for those who want i3 on Wayland without the extras.
-
-- **[vyrx-dev/dotfiles](https://github.com/vyrx-dev/dotfiles.git)** — `vyrx-dev`  
-  Deliberately boring · dev-focused · this is where you actually get things done
-
-<br>
-
-### Qtile
-
-> Python as a WM config language. More power than you expect.
-
-- **[cr1ogen/cr1odots](https://github.com/cr1ogen/cr1odots)** — `cr1ogen`  
-  Qtile on Wayland · Richfetch · Kitty · mpv · cava
-
-<br>
-
-### KDE
-
-> Full-featured, deeply customizable. Catppuccin makes it sing.
-
-- **[Jotalea — I love catppuccin](https://catppuccin.com)** — `Jotalea`  
-  Catppuccin on KDE Plasma · Discord · Kitty · and yes, even Minecraft
-
-<br>
-
-### Niri
-
-> A scrollable tiling compositor. Still niche, already impressive.
-
-- **[SpasaevDonut/ruby_quickshell_rice](https://github.com/SpasaevDonut/ruby_quickshell_rice)** — `TuJluGPaM`  
-  Niri worron/Ruby wannabe · AwesomeWM rice ported to Wayland · heavily vibecoded
-
-- **[AyushKr2003/niri-caelestia-shell](https://github.com/AyushKr2003/niri-caelestia-shell)** — `AyushKr2003`  
-  Caelestia shell on Niri · config editor · battery monitor · clipboard manager · Niri IPC dashboard
-
-<br>
-
-### dwm
-
-> Suckless philosophy. Patch it, own it.
-
-- **[linuxmobile — DWM old rice](https://github.com/linuxmobile)** — `linuxmobile`  
-  An early dwm rice from linuxmobile · part of a long history of setups
-
-<br>
-
-### AwesomeWM
-
-> Lua-configured, event-driven, timeless.
-
-- **[linuxmobile — Awesome WM](https://github.com/linuxmobile)** — `linuxmobile`  
-  Old AwesomeWM rice · simple and clean
-
-<br>
-
-### Other
-
-> Openbox, retro setups, and community history.
-
-- **[linuxmobile — old rice with openbox](https://github.com/linuxmobile)** — `linuxmobile`  
-  An old Openbox rice
-
-- **[linuxmobile — openbox & android old rice](https://github.com/linuxmobile)** — `linuxmobile`  
-  One of the first rices shared in r/unixporn · a piece of history
-
-<br>
-
-## ❄️ NixOS
-
-> Declarative, reproducible, and increasingly beautiful. The future of dotfiles?
-
-- **[chriztinkrz/nixos-config](https://github.com/chriztinkrz/nixos-config)** — `chriztinkrz`  
-  Personal NixOS config · Hyprland · minimal and consistent
-
-- **[yutkat/dotfiles](https://github.com/yutkat/dotfiles)** — `yutkat`  
-  Hyprland + Waybar on NixOS · well-crafted and understated
-
-- **[linuxmobile — Old Gnome Rice on NixOS](https://github.com/linuxmobile/shin)** — `linuxmobile`  
-  Old GNOME rice · linuxmobile's NixOS era
-
-- **[linuxmobile — Old NixOS rice](https://github.com/linuxmobile/shin)** — `linuxmobile`  
-  First NixOS rice with Hyprland · where it all started on Nix
-
-- **[ilyamiro/nixos-configuration](https://github.com/ilyamiro/nixos-configuration)** — `@ilyamiro`  
-  NixOS + Hyprland · installer works on Arch-based distros too
-
-- **[ORFLEM/just_enough_shell](https://github.com/ORFLEM/just_enough_shell/tree/main)** — `_ORFLEM_`  
-  SwayFX/Hyprland · everyday practicality, not trends · Quickshell + plugin system
-
-<br>
-
-## 🚀 EndeavourOS
-
-> The friendliest path to Arch. Still gets great rices.
-
-- **[LofiGhoul/Dotfiles](https://github.com/LofiGhoul/Dotfiles/tree/Spring-aestethic)** — `LofiGhoul`  
-  Hillside Reverie · cozy spring Hyprland theme · calming colors
-
-- **[anonymous — Sway](https://github.com)** — `anonymous`  
-  Sway on EndeavourOS · bash · Inter · Kitty
-
-<br>
-
-## 🎩 Fedora
-
-> Corporate polish, community spirit. RPM, SELinux, and some lovely rices.
-
-- **[AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell)** — `anonymous`  
-  Hyprland + NibrasShell · personalized workflow · unconventional UI elements
-
-<br>
-
-## ⚡ Void Linux
-
-> No systemd. Fast. Rare. Rices here have character.
-
-- **[szorfein/dotfiles](https://github.com/szorfein/dotfiles)** — `Szorfein`  
-  SwayFX + Eww widgets · a rare and distinctive combination
-
-- **[Nizarjh/dots](https://github.com/Nizarjh/dots)** — `Nizarjh`  
-  Hyprland · Waybar · Wofi · running on Void Linux
-
-<br>
-
-## 🐋 Debian
-
-> The universal OS. Stable, trusted, and yes, it can look great too.
-
-- **[cr1ogen/cr1odots](https://github.com/cr1ogen/cr1odots)** — `cr1ogen`  
-  Qtile on Wayland · Richfetch · mpv · cava
-
-<br>
-
-## ✦ Star History
-
-<a href="https://star-history.com/#awesome-dotfiles/dotfiles&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=awesome-dotfiles/dotfiles&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=awesome-dotfiles/dotfiles&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=awesome-dotfiles/dotfiles&type=Date" />
-  </picture>
-</a>
-
-<br>
-
-## ✦ Contributing
-
-Want your setup in here? Submit it at **[awesome-dotfiles.web.app](https://awesome-dotfiles.web.app)** with a screenshot, color palette, and dotfiles link. Once approved it shows up on the site *and* in this index.
+<table border="0" cellspacing="0" cellpadding="0" width="780">
+<tr>
+<td align="center" width="260" style="padding: 0 16px;">
 
 ```
-submit → get reviewed → appear in the gallery + this README
+clarity
+────────
+Code is read
+more than it
+is written.
 ```
 
-<br>
+</td>
+<td align="center" width="260" style="padding: 0 16px;">
+
+```
+intention
+──────────
+Every spacing
+decision is
+a decision.
+```
+
+</td>
+<td align="center" width="260" style="padding: 0 16px;">
+
+```
+removal
+────────
+Simplicity is
+what remains
+after the work.
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!---------------------------------------------------------------------------->
+<!--  ACTIVITY GRAPH — full-width, minimal theme                            -->
+<!---------------------------------------------------------------------------->
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=zhaleff&bg_color=0d1117&color=888888&line=4a90d9&point=ffffff&area=true&area_color=1a1a2e&hide_border=true&custom_title=commit+cadence)](https://github.com/zhaleff)
+
+<br/>
+
+<!---------------------------------------------------------------------------->
+<!--  STATS ROW — language dominance + streak side by side                  -->
+<!---------------------------------------------------------------------------->
 
 <div align="center">
 
-made with ♥ by the community · [website](https://awesome-dotfiles.web.app) · [submit your dots](https://awesome-dotfiles.web.app)
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=zhaleff&show_icons=true&theme=transparent&hide_border=true&title_color=aaaaaa&text_color=888888&icon_color=4a90d9&ring_color=4a90d9&hide_title=true&rank_icon=github&show=reviews,discussions_answered&include_all_commits=true&count_private=true" />
+&nbsp;&nbsp;&nbsp;
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhaleff&layout=compact&theme=transparent&hide_border=true&title_color=aaaaaa&text_color=888888&langs_count=6" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=zhaleff&theme=transparent&hide_border=true&stroke=0d1117&ring=4a90d9&fire=4a90d9&currStreakNum=ffffff&sideNums=888888&currStreakLabel=888888&sideLabels=555555&dates=555555&background=00000000)](https://git.io/streak-stats)
+
+</div>
+
+<br/>
+
+<!---------------------------------------------------------------------------->
+<!--  SELECTED WORK — manual, intentional, not auto-generated               -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:0d0d0d&height=2&section=header" width="100%"/>
+
+<br/>
+
+**`selected work`**
+
+<br/>
+
+<table border="0" cellspacing="0" cellpadding="0" width="780">
+<tr>
+
+<td width="380" valign="top">
+
+### [▸ AwesomeDotfiles](https://github.com/zhaleff/AwesomeDotfiles)
+Community-submitted Linux desktop configs, browsed and indexed.  
+`185 ★` &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; community-driven
+
+</td>
+
+<td width="20"></td>
+
+<td width="380" valign="top">
+
+### [▸ BlackNode](https://github.com/zhaleff/BlackNode)
+Your home in the terminal. Simple, clean, yours.  
+`141 ★` &nbsp;·&nbsp; Shell &nbsp;·&nbsp; terminal tooling
+
+</td>
+
+</tr>
+<tr><td colspan="3"><br/></td></tr>
+<tr>
+
+<td width="380" valign="top">
+
+### [▸ hyprcraft](https://github.com/zhaleff/hyprcraft)
+A beautiful development environment, built with care.  
+`117 ★` &nbsp;·&nbsp; SCSS &nbsp;·&nbsp; environment design
+
+</td>
+
+<td width="20"></td>
+
+<td width="380" valign="top">
+
+### [▸ hyprdots](https://github.com/zhaleff/hyprdots)
+Minimal configuration. Thoughtful setup.  
+`23 ★` &nbsp;·&nbsp; Shell &nbsp;·&nbsp; dotfiles
+
+</td>
+
+</tr>
+</table>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:1a1a2e&height=2&section=header" width="100%"/>
+
+<br/>
+
+<!---------------------------------------------------------------------------->
+<!--  OPERATING PRINCIPLES — numbered, spare                                -->
+<!---------------------------------------------------------------------------->
+
+**`how I work`**
+
+<br/>
+
+```
+01  Design and development are the same discipline.
+02  A component that behaves unpredictably is broken, regardless of how it looks.
+03  Performance is a design decision made at the start, not fixed at the end.
+04  The best interface is the one people don't have to think about.
+```
+
+<br/>
+
+<!---------------------------------------------------------------------------->
+<!--  TROPHIES — subtle, not the main event                                 -->
+<!---------------------------------------------------------------------------->
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=zhaleff&theme=onestar&no-bg=true&no-frame=true&margin-w=8&margin-h=0&row=1&column=6&rank=SSS,SS,S,AAA,AA,A,B)](https://github.com/zhaleff)
+
+<br/>
+
+<!---------------------------------------------------------------------------->
+<!--  REACH — one line, no clutter                                          -->
+<!---------------------------------------------------------------------------->
+
+`zhaleff.web.app` &nbsp;·&nbsp; open to interesting conversations
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0d0d0d&height=80&section=footer" width="100%"/>
+
+<!---------------------------------------------------------------------------->
+<!--  VISITOR COUNTER — understated                                         -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://komarev.com/ghpvc/?username=zhaleff&style=flat-square&color=555555&label=profile+views" alt="profile views"/>
 
 </div>
