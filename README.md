@@ -1,203 +1,142 @@
-<div align="center">
-
-<!---------------------------------------------------------------------------->
-<!--  HEADER — SVG animated identity mark                                   -->
-<!---------------------------------------------------------------------------->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,100:1a1a2e&height=120&section=header&text=&fontSize=0" width="100%"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&duration=1&pause=999999&color=F5F5F5&center=true&vCenter=true&width=600&height=80&lines=zhaleff">
-  <img alt="zhaleff" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=42&duration=1&pause=999999&color=0d0d0d&center=true&vCenter=true&width=600&height=80&lines=zhaleff">
-</picture>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3500&pause=900&color=888888&center=true&vCenter=true&multiline=false&width=700&height=30&lines=frontend+engineer+%E2%80%94+I+care+about+how+things+feel.;React+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Tailwind+%C2%B7+Framer+Motion;Building+interfaces+worth+the+user%27s+attention.;Precision+over+decoration.+Always.">
-  <img alt="Rotating subtitle" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=15&duration=3500&pause=900&color=555555&center=true&vCenter=true&multiline=false&width=700&height=30&lines=frontend+engineer+%E2%80%94+I+care+about+how+things+feel.;React+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Tailwind+%C2%B7+Framer+Motion;Building+interfaces+worth+the+user%27s+attention.;Precision+over+decoration.+Always.">
-</picture>
-
-<br/>
-<br/>
-
-<!---------------------------------------------------------------------------->
-<!--  PHILOSOPHY STRIP — three tight columns, no headers                    -->
-<!---------------------------------------------------------------------------->
-
-<table border="0" cellspacing="0" cellpadding="0" width="780">
-<tr>
-<td align="center" width="260" style="padding: 0 16px;">
-
-```
-clarity
-────────
-Code is read
-more than it
-is written.
-```
-
-</td>
-<td align="center" width="260" style="padding: 0 16px;">
-
-```
-intention
-──────────
-Every spacing
-decision is
-a decision.
-```
-
-</td>
-<td align="center" width="260" style="padding: 0 16px;">
-
-```
-removal
-────────
-Simplicity is
-what remains
-after the work.
-```
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!---------------------------------------------------------------------------->
-<!--  ACTIVITY GRAPH — full-width, minimal theme                            -->
-<!---------------------------------------------------------------------------->
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=zhaleff&bg_color=0d1117&color=888888&line=4a90d9&point=ffffff&area=true&area_color=1a1a2e&hide_border=true&custom_title=commit+cadence)](https://github.com/zhaleff)
-
-<br/>
-
-<!---------------------------------------------------------------------------->
-<!--  STATS ROW — language dominance + streak side by side                  -->
-<!---------------------------------------------------------------------------->
+<h1 align="center">BlackNode · bn-menu</h1>
 
 <div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=zhaleff&show_icons=true&theme=transparent&hide_border=true&title_color=aaaaaa&text_color=888888&icon_color=4a90d9&ring_color=4a90d9&hide_title=true&rank_icon=github&show=reviews,discussions_answered&include_all_commits=true&count_private=true" />
-&nbsp;&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhaleff&layout=compact&theme=transparent&hide_border=true&title_color=aaaaaa&text_color=888888&langs_count=6" />
-
+  <p>
+    <a href="#"><img src="https://img.shields.io/badge/scripts-19-blue?style=for-the-badge&logo=rofi&logoColor=white&labelColor=302D41&color=89B4FA" alt="Scripts"></a>&nbsp;&nbsp;
+    <a href="#"><img src="https://img.shields.io/badge/themes-33-green?style=for-the-badge&logo=files&logoColor=white&labelColor=302D41&color=A6E3A1" alt="Themes"></a>&nbsp;&nbsp;
+    <a href="#"><img src="https://img.shields.io/badge/M3-Material%20You-F9E2AF?style=for-the-badge&logo=materialdesign&logoColor=white&labelColor=302D41" alt="M3"></a>&nbsp;&nbsp;
+    <a href="#"><img src="https://img.shields.io/badge/matugen-automatic-CBA6F7?style=for-the-badge&logo=colors&logoColor=white&labelColor=302D41" alt="Matugen"></a>
+  </p>
 </div>
 
-<br/>
+Hello.  This document explains the rofi menu system in BlackNode — what it is, how it is structured, and how to use it.
 
-<div align="center">
+It covers two separate but complementary interfaces: **bn-menu** (the main hub with icon + text items) and **rofi sidebars** (icon-only panels on the right edge of the screen).  Both pull colors from the same Material You palette generated automatically from your wallpaper via matugen.
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=zhaleff&theme=transparent&hide_border=true&stroke=0d1117&ring=4a90d9&fire=4a90d9&currStreakNum=ffffff&sideNums=888888&currStreakLabel=888888&sideLabels=555555&dates=555555&background=00000000)](https://git.io/streak-stats)
 
-</div>
+## Table of Contents
+- [The Two Interfaces](#the-two-interfaces)
+- [Theme Architecture](#theme-architecture)
+- [Sidebar Scripts](#sidebar-scripts)
+- [Quick Config HUD](#quick-config-hud)
+- [bn-menu Submenus](#bn-menu-submenus)
+- [Development Rules](#development-rules)
 
-<br/>
 
-<!---------------------------------------------------------------------------->
-<!--  SELECTED WORK — manual, intentional, not auto-generated               -->
-<!---------------------------------------------------------------------------->
+## The Two Interfaces
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1a2e,100:0d0d0d&height=2&section=header" width="100%"/>
+| Interface | Access | Style | Lines / Items |
+|-----------|--------|-------|---------------|
+| **bn-menu** | `SUPER + SPACE` | Centered 440×640 window, icon + text, search bar | 15 items |
+| **Sidebars** | Keybinds (WiFi, BT, audio, etc.) | 100px-wide right panel, icon-only, no search | 3–6 items |
 
-<br/>
+Both use the same color tokens and the same shared theme files — the only difference is layout and content.
 
-**`selected work`**
 
-<br/>
+## Theme Architecture
 
-<table border="0" cellspacing="0" cellpadding="0" width="780">
-<tr>
-
-<td width="380" valign="top">
-
-### [▸ AwesomeDotfiles](https://github.com/zhaleff/AwesomeDotfiles)
-Community-submitted Linux desktop configs, browsed and indexed.  
-`185 ★` &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; community-driven
-
-</td>
-
-<td width="20"></td>
-
-<td width="380" valign="top">
-
-### [▸ BlackNode](https://github.com/zhaleff/BlackNode)
-Your home in the terminal. Simple, clean, yours.  
-`141 ★` &nbsp;·&nbsp; Shell &nbsp;·&nbsp; terminal tooling
-
-</td>
-
-</tr>
-<tr><td colspan="3"><br/></td></tr>
-<tr>
-
-<td width="380" valign="top">
-
-### [▸ hyprcraft](https://github.com/zhaleff/hyprcraft)
-A beautiful development environment, built with care.  
-`117 ★` &nbsp;·&nbsp; SCSS &nbsp;·&nbsp; environment design
-
-</td>
-
-<td width="20"></td>
-
-<td width="380" valign="top">
-
-### [▸ hyprdots](https://github.com/zhaleff/hyprdots)
-Minimal configuration. Thoughtful setup.  
-`23 ★` &nbsp;·&nbsp; Shell &nbsp;·&nbsp; dotfiles
-
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:1a1a2e&height=2&section=header" width="100%"/>
-
-<br/>
-
-<!---------------------------------------------------------------------------->
-<!--  OPERATING PRINCIPLES — numbered, spare                                -->
-<!---------------------------------------------------------------------------->
-
-**`how I work`**
-
-<br/>
+Everything is modular.  No standalone themes.
 
 ```
-01  Design and development are the same discipline.
-02  A component that behaves unpredictably is broken, regardless of how it looks.
-03  Performance is a design decision made at the start, not fixed at the end.
-04  The best interface is the one people don't have to think about.
+~/.config/rofi/
+├── colors.rasi          ← M3 palette from matugen (47 tokens)
+├── menu.rasi            ← bn-menu theme (440×640, centered, search)
+├── submenu.rasi         ← bn-menu submenu theme (380px, 6 lines)
+├── shared/
+│   ├── config.rasi      ← Base config (font, scrollbar, sidebar-mode)
+│   ├── menu.rasi        ← Sidebar bundle (imports colors + config + sidebar)
+│   ├── sidebar.rasi     ← Sidebar layout (100px east, icon-only, feather font)
+│   ├── list.rasi        ← Centered list dialog (440px, 28px radius, search)
+│   ├── input-dialog.rasi← Input dialog (420px, 24px radius)
+│   ├── dialog.rasi      ← Generic dialog
+│   └── grid.rasi        ← Grid layout
+└── styles/              ← Per-feature themes importing from shared/
+    ├── wifi-list.rasi       (6  lines, imports list.rasi)
+    ├── bluetooth-list.rasi  (6  lines, imports list.rasi)
+    ├── notes-list.rasi      (20 lines, imports list.rasi)
+    ├── search-list.rasi     (20 lines, imports list.rasi)
+    ├── audio-list.rasi      (46 lines, imports list.rasi)
+    ├── notes-input.rasi     (10 lines, imports input-dialog.rasi)
+    ├── search-input.rasi    (10 lines, imports input-dialog.rasi)
+    ├── config-list.rasi     (wrapper for shared/list.rasi)
+    └── ... legacy refactored themes
 ```
 
-<br/>
+The rule: every `-list.rasi` imports `shared/list.rasi` with **no width, font, padding, or lines overrides**.  Every `-input.rasi` imports `shared/input-dialog.rasi` the same way. Consistency is enforced.
 
-<!---------------------------------------------------------------------------->
-<!--  TROPHIES — subtle, not the main event                                 -->
-<!---------------------------------------------------------------------------->
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=zhaleff&theme=onestar&no-bg=true&no-frame=true&margin-w=8&margin-h=0&row=1&column=6&rank=SSS,SS,S,AAA,AA,A,B)](https://github.com/zhaleff)
+## Sidebar Scripts
 
-<br/>
+All sidebars live in `~/.config/rofi/scripts/` and use the same pattern:
 
-<!---------------------------------------------------------------------------->
-<!--  REACH — one line, no clutter                                          -->
-<!---------------------------------------------------------------------------->
+- Icon-only menu in a 100px-wide right panel
+- Fat icons rendered in `feather` font (20px via `element-text`)
+- Items are single icons with a trailing space: `"󰅴 "` (no leading space)
+- Uses `shared/menu.rasi` with `-theme-str "listview { lines: N; }"`
 
-`zhaleff.web.app` &nbsp;·&nbsp; open to interesting conversations
+| Script | Trigger | Icons | Description |
+|--------|---------|-------|-------------|
+| `wifi.sh` | `SUPER + A` | 󰀂 󰇚 󰤪/󰤨 󰋵 | Scan, saved, toggle, exit |
+| `bluetooth.sh` | `SUPER + B` | 󰂯 󰂰 󰁪 󰋵 | Power, scan, devices, exit |
+| `audio.sh` | `SUPER + SHIFT + A` | 󰋲 󰝚 | Recently played (album art), audio apps |
+| `notes.sh` | `SUPER + SHIFT + N` | 󰅴 󰋼 󰋁 | New note, view notes, open folder |
+| `search.sh` | `SUPER + SHIFT + F` | 󰈞 󰛳 󰏫 󰅶 | File, web, text, recent |
+| `kb-layout.sh` | `SUPER + SHIFT + K` | 󰌌 | Keyboard layout toggle |
+| `config-hud.sh` | `SUPER + SHIFT + I` | 󰐥 󰡟 󰏘  | Animations, visuals, layout, rounding |
 
-<br/>
+Each sidebar opens centered `shared/list.rasi` dialogs for sub-actions (selecting networks, picking notes, etc.).
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0d0d0d&height=80&section=footer" width="100%"/>
 
-<!---------------------------------------------------------------------------->
-<!--  VISITOR COUNTER — understated                                         -->
-<!---------------------------------------------------------------------------->
 
-<img src="https://komarev.com/ghpvc/?username=zhaleff&style=flat-square&color=555555&label=profile+views" alt="profile views"/>
+## Quick Config HUD
 
-</div>
+`scripts/config-hud.sh` is a live Hyprland settings panel that writes to `settings/overrides.lua` and reloads the compositor — no manual config file editing, no `hyprctl keyword`.
+
+| Category | What It Toggles / Sets |
+|----------|------------------------|
+| 󰐥 **Animations** | On / Off |
+| 󰡟 **Visuals** | Blur (on/off), Shadow (on/off), Dim (0.3 / 0.0) |
+| 󰏘 **Layout** | Gaps In (0–8px), Gaps Out (0–16px), Border (1–4px) |
+|  **Rounding** | Window rounding (0–20px) |
+
+State is cached in `~/.cache/blacknode/hud-state` so changes persist across sessions.  The `overrides.lua` file is loaded at the end of `hyprland.lua` via `pcall(require, "settings/overrides")`.
+
+
+## bn-menu Submenus
+
+bn-menu (`~/.local/bin/bn-menu`) launches 15 submenus from `~/.local/bin/scripts/*/menu.sh`.  Each submenu shows 6–8 items with icon + text in a centered 380px window using `submenu.rasi`.
+
+| Menu | Script | Items |
+|------|--------|-------|
+|  System | `system/menu.sh` | System settings |
+| 󰓃 Audio | `audio/menu.sh` | Audio controls |
+| 󰍹 Display | `display/menu.sh` | Display settings |
+| 󰖰 Window | `window/menu.sh` | Window management |
+| 󰹑 Screenshot | `screenshot/menu.sh` | Screenshot tools |
+| 󰥰 Processes | `process/menu.sh` | Process management |
+| 󰏗 Packages | `package/menu.sh` | Package management |
+|  Applications | `apps/menu.sh` | App launcher |
+| 󰸉 Wallpapers | `wallpaper/menu.sh` | Wallpaper selection |
+| 󰄉 Waybar | `waybar/menu.sh` | Bar styles |
+| 󰑐 Reload | `reload/menu.sh` | Config reload |
+| 󱖫 Services | `services/menu.sh` | Service management |
+| 󰌌 Theme | `theme/menu.sh` | Theme settings |
+| 󰋼 About | `info/menu.sh` | Project info, stats, keybinds, README, dotfile browser |
+| 󰍃 Session | `session/menu.sh` | Session control |
+| 󰂯 Bluetooth | `bluetooth/menu.sh` | Bluetooth management |
+
+
+## Development Rules
+
+When adding new features to this system, follow these rules:
+
+1. **Sidebars use `shared/menu.rasi`** with `-theme-str "listview { lines: N; }"`.  Do not create per-menu `.rasi` files.
+2. **List menus use `shared/list.rasi`**.  No width/font/padding/lines overrides.
+3. **Input dialogs use `shared/input-dialog.rasi`**.  No overrides.
+4. **Icons in sidebar data strings** follow `"󰅴 "` — icon immediately followed by a single trailing space, no leading space.
+5. **bn-menu items** use the same pattern: `"  System"` — icon, double space, text label.
+6. **If something repeats more than once**, modularize it into `shared/`.
+7. **No standalone themes**.  Every `.rasi` imports from `shared/` and `colors.rasi`.
+8. **Hyprland runtime changes** go through `settings/overrides.lua` + `hyprctl reload`, never `hyprctl keyword` (Hyprland 0.55+ Lua).
+
+**— HollowSec**
