@@ -233,3 +233,4 @@ submit → get reviewed → appear in the gallery + this README
 <sub>made with ♥ by the community · <a href="https://ricehubx.vercel.app">website</a> · <a href="https://ricehubx.vercel.app/submit">submit your dots</a></sub>
 
 </div>
+
