@@ -1,4 +1,4 @@
-<div align="center> BlackNode Coffe </div>
+<div align="center> <h2>BlackNode Coffe<2h/> <div/>
 
 BlackNode is a simpler dotfile, tailored for those who want a minimal dotfile to serve as a foundation for creating their own content.
 
